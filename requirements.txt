@@ -1,0 +1,10 @@
+faiss-cpu
+sentence-transformers
+pypdf
+python-docx
+python-pptx
+openpyxl
+beautifulsoup4
+lxml
+tqdm
+numpy

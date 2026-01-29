@@ -1,0 +1,25 @@
+# ===== ENV / SEGREDOS =====
+.env
+.env.*
+!.env.example
+
+# ===== PYTHON =====
+.venv/
+__pycache__/
+*.pyc
+
+# ===== CHAVES / CREDENCIAIS =====
+*.pem
+*.key
+credentials.json
+
+# ===== LOGS =====
+*.log
+
+# ===== DADOS LOCAIS =====
+*.db
+*.sqlite
+# ===== DADOS DO RAG =====
+data_raw/
+data_index/
+*.faiss
