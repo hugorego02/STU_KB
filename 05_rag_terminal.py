@@ -15,10 +15,10 @@ FAISS_PATH = INDEX_DIR / "kb.faiss"
 META_PATH = INDEX_DIR / "kb_meta.json"
 
 EMB_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_MODEL = "gpt-4o-mini"  # bom custo/latência para MVP (pode trocar depois)
+LLM_MODEL = "gpt-4o-mini"  # good cost/latency for MVP (can swap later)
 
 TOP_K = 5
-MAX_CONTEXT_CHARS_PER_CHUNK = 900  # para não mandar chunks gigantes pro LLM
+MAX_CONTEXT_CHARS_PER_CHUNK = 900  # to avoid sending huge chunks to the LLM
 
 SYSTEM_RULES = """\
 You are an assistant. Answer using ONLY the SOURCES provided.
@@ -30,7 +30,7 @@ You are an assistant. Answer using ONLY the SOURCES provided.
 # --------- Helpers ----------
 def load_kb():
     if not FAISS_PATH.exists() or not META_PATH.exists():
-        raise SystemExit("Índice não encontrado. Rode primeiro: python vectorize.py")
+        raise SystemExit("Index not found. Run first: python vectorize.py")
 
     index = faiss.read_index(str(FAISS_PATH))
     meta = json.loads(META_PATH.read_text(encoding="utf-8"))
@@ -67,16 +67,16 @@ def build_context(results: list[dict]) -> str:
 
 
 def main():
-    load_dotenv()  # carrega OPENAI_API_KEY do .env
+    load_dotenv()  # loads OPENAI_API_KEY from .env
     client = OpenAI()
 
     index, meta = load_kb()
     emb_model = SentenceTransformer(EMB_MODEL)
 
-    print("RAG pronto. (ENTER vazio para sair)\n")
+    print("RAG ready. (Empty ENTER to exit)\n")
 
     while True:
-        q = input("Pergunta: ").strip()
+        q = input("Question: ").strip()
         if not q:
             break
 
@@ -84,10 +84,10 @@ def main():
         context = build_context(results)
 
         user_prompt = f"""\
-Pergunta do usuário:
+User question:
 {q}
 
-FONTES (use somente isso):
+SOURCES (use only this):
 {context}
 """
 
@@ -99,12 +99,12 @@ FONTES (use somente isso):
             ],
         )
 
-        # A forma mais simples de pegar texto:
+        # The simplest way to get text:
         answer = resp.output_text
-        print("\n--- RESPOSTA ---")
+        print("\n--- ANSWER ---")
         print(answer)
 
-        print("\n--- FONTES RECUPERADAS (top-k) ---")
+        print("\n--- RETRIEVED SOURCES (top-k) ---")
         for i, r in enumerate(results, start=1):
             print(f"{i}) score={r['score']:.3f} | {Path(r['source_file']).name} - chunk {r['chunk_id']}")
         print()

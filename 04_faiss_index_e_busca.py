@@ -10,7 +10,7 @@ AMOSTRA = BASE / "data_raw" / "_amostra"
 INDEX_DIR = BASE / "data_index"
 INDEX_DIR.mkdir(exist_ok=True)
 
-# Para não misturar com o índice "real" depois, vamos salvar com sufixo _amostra
+# To avoid mixing with the "real" index later, we'll save with the _amostra suffix
 FAISS_PATH = INDEX_DIR / "kb_amostra.faiss"
 META_PATH = INDEX_DIR / "kb_amostra_meta.json"
 
@@ -42,7 +42,7 @@ def chunk_by_paragraphs(paras: list[str], max_chars: int, overlap_paras: int) ->
 
     while i < len(paras):
         p = paras[i]
-        add_len = len(p) + (2 if buf else 0)  # separador "\n\n"
+        add_len = len(p) + (2 if buf else 0)  # "\n\n" separator
 
         if buf_len + add_len <= max_chars:
             buf.append(p)
@@ -52,7 +52,7 @@ def chunk_by_paragraphs(paras: list[str], max_chars: int, overlap_paras: int) ->
 
         if buf:
             chunks.append("\n\n".join(buf).strip())
-            # overlap: repete os últimos N parágrafos no próximo chunk
+            # overlap: repeat the last N paragraphs in the next chunk
             if overlap_paras > 0:
                 buf = buf[-overlap_paras:]
                 buf_len = sum(len(x) for x in buf) + (2 * (len(buf) - 1) if len(buf) > 1 else 0)
@@ -60,7 +60,7 @@ def chunk_by_paragraphs(paras: list[str], max_chars: int, overlap_paras: int) ->
                 buf, buf_len = [], 0
             continue
 
-        # parágrafo gigante que não cabe sozinho: coloca como chunk único
+        # huge paragraph that doesn't fit by itself: keep it as a single chunk
         chunks.append(p)
         i += 1
 
@@ -72,20 +72,20 @@ def chunk_by_paragraphs(paras: list[str], max_chars: int, overlap_paras: int) ->
 
 def build_index(vectors: np.ndarray) -> faiss.Index:
     dim = vectors.shape[1]
-    index = faiss.IndexFlatIP(dim)  # Inner Product com embeddings normalizados = cosine similarity
+    index = faiss.IndexFlatIP(dim)  # Inner Product with normalized embeddings = cosine similarity
     index.add(vectors)
     return index
 
 
 def main():
     if not AMOSTRA.exists():
-        raise SystemExit(f"Não encontrei a pasta: {AMOSTRA}")
+        raise SystemExit(f"I could not find the folder: {AMOSTRA}")
 
     files = sorted(AMOSTRA.glob("*.docx"))
     if not files:
-        raise SystemExit(f"Nenhum .docx encontrado em: {AMOSTRA}")
+        raise SystemExit(f"No .docx found in: {AMOSTRA}")
 
-    # 1) Extrai + cria chunks
+    # 1) Extract + create chunks
     chunks: list[str] = []
     meta: list[dict] = []
 
@@ -98,35 +98,35 @@ def main():
             meta.append({
                 "source_file": str(f),
                 "chunk_id": i,
-                "text": ch,  # guardamos o texto completo pra exibir depois
+                "text": ch,  # store the full text to display later
                 "preview": ch[:220].replace("\n", " ")
             })
 
     if not chunks:
-        raise SystemExit("Nenhum texto/chunk foi gerado. (Docs vazios?)")
+        raise SystemExit("No text/chunk was generated. (Empty docs?)")
 
-    print(f"Arquivos: {len(files)} | Chunks totais: {len(chunks)}")
+    print(f"Files: {len(files)} | Total chunks: {len(chunks)}")
 
     # 2) Embeddings
     model = SentenceTransformer(MODEL_NAME)
     emb = model.encode(chunks, normalize_embeddings=True, show_progress_bar=True)
     vectors = np.array(emb, dtype="float32")
-    print(f"Embeddings: {vectors.shape} (chunks x dimensão)")
+    print(f"Embeddings: {vectors.shape} (chunks x dimension)")
 
-    # 3) Índice FAISS
+    # 3) FAISS index
     index = build_index(vectors)
     faiss.write_index(index, str(FAISS_PATH))
     META_PATH.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print("\n✅ Índice criado e salvo:")
+    print("\n✅ Index created and saved:")
     print(f" - {FAISS_PATH}")
     print(f" - {META_PATH}")
 
-    # 4) Busca de teste
-    print("\n=== TESTE DE BUSCA ===")
-    query = input("Digite uma pergunta (em PT ou EN): ").strip()
+    # 4) Test search
+    print("\n=== SEARCH TEST ===")
+    query = input("Type a question (in PT or EN): ").strip()
     if not query:
-        print("Pergunta vazia. Encerrando.")
+        print("Empty question. Exiting.")
         return
 
     qvec = model.encode([query], normalize_embeddings=True)
@@ -135,15 +135,15 @@ def main():
     k = 5
     scores, ids = index.search(qvec, k)
 
-    print(f"\nTop {k} resultados:")
+    print(f"\nTop {k} results:")
     for rank, (idx, score) in enumerate(zip(ids[0], scores[0]), start=1):
         if idx < 0:
             continue
         m = meta[int(idx)]
         print(f"\n#{rank}  score={float(score):.3f}")
-        print(f"Arquivo: {m['source_file']}")
+        print(f"File: {m['source_file']}")
         print(f"Chunk: {m['chunk_id']}")
-        print(f"Trecho:\n{m['text'][:800]}")  # mostra até 800 chars
+        print(f"Excerpt:\n{m['text'][:800]}")  # show up to 800 chars
 
 
 if __name__ == "__main__":

@@ -11,20 +11,20 @@ def ler_docx(path: Path) -> str:
 
 def main():
     if not AMOSTRA.exists():
-        raise SystemExit(f"Não encontrei a pasta: {AMOSTRA}")
+        raise SystemExit(f"I could not find the folder: {AMOSTRA}")
 
     arquivos = sorted(AMOSTRA.glob("*.docx"))
     if not arquivos:
-        raise SystemExit(f"Nenhum .docx encontrado em: {AMOSTRA}")
+        raise SystemExit(f"No .docx found in: {AMOSTRA}")
 
-    print(f"Encontrei {len(arquivos)} arquivo(s) .docx em {AMOSTRA}\n")
+    print(f"I found {len(arquivos)} .docx file(s) in {AMOSTRA}\n")
 
     for i, arq in enumerate(arquivos, start=1):
         texto = ler_docx(arq)
         preview = texto[:400].replace("\n", " ")
         print(f"[{i}] {arq.name}")
-        print(f"    caracteres extraídos: {len(texto)}")
-        print(f"    preview: {preview if preview else '(vazio)'}\n")
+        print(f"    extracted characters: {len(texto)}")
+        print(f"    preview: {preview if preview else '(empty)'}\n")
 
 if __name__ == "__main__":
     main()

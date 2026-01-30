@@ -69,18 +69,18 @@ def cosine_sim(a: np.ndarray, b: np.ndarray) -> float:
 def main():
     arquivos = sorted(AMOSTRA.glob("*.docx"))
     if not arquivos:
-        raise SystemExit("Nenhum .docx encontrado.")
+        raise SystemExit("No .docx found.")
 
-    # pega o maior arquivo para teste
+    # pick the largest file for testing
     arq = max(arquivos, key=lambda p: p.stat().st_size)
-    print(f"Arquivo de teste: {arq.name}")
+    print(f"Test file: {arq.name}")
 
     paras = extract_paragraphs_docx(arq)
     chunks = chunk_by_paragraphs(paras, MAX_CHARS, OVERLAP_PARAS)
 
-    print(f"Chunks gerados: {len(chunks)}")
+    print(f"Generated chunks: {len(chunks)}")
 
-    # carrega modelo de embeddings
+    # load embeddings model
     model = SentenceTransformer(MODEL_NAME)
 
     embeddings = model.encode(
@@ -89,17 +89,17 @@ def main():
         show_progress_bar=True
     )
 
-    print(f"Embeddings gerados: {len(embeddings)}")
-    print(f"Dimensão do embedding: {embeddings[0].shape[0]}")
+    print(f"Generated embeddings: {len(embeddings)}")
+    print(f"Embedding dimension: {embeddings[0].shape[0]}")
 
-    # compara similaridade entre alguns chunks
+    # compare similarity between some chunks
     if len(embeddings) >= 2:
         s01 = cosine_sim(embeddings[0], embeddings[1])
-        print(f"Similaridade chunk 1 vs 2: {s01:.3f}")
+        print(f"Similarity chunk 1 vs 2: {s01:.3f}")
 
     if len(embeddings) >= 3:
         s02 = cosine_sim(embeddings[0], embeddings[2])
-        print(f"Similaridade chunk 1 vs 3: {s02:.3f}")
+        print(f"Similarity chunk 1 vs 3: {s02:.3f}")
 
 
 if __name__ == "__main__":
