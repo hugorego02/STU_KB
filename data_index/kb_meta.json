@@ -1,0 +1,534 @@
+[
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010021_Blocked Countries_RestrictedAccess.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 0,
+    "text": "Purpose\n\nWhen a student or staff member travels during the semester and is uncertain about accessing school information from a different country, this list identifies the countries where they will encounter issues.\n\nDetailed Procedure Steps\n\nCN: China DZ: Algeria EG: Egypt ID: Indonesia IQ: Iraq IR: Iran KP: North Korea NG: Nigeria PK: Pakistan RO: Romania RU: Russia TH: Thailand TR: Turkey VN: Vietnam\n\nAccess attempts from these countries will be blocked by our systems to comply with legal and security protocols. Exceptions can only be granted through formal review and approval from the Security and Compliance Office.\n\nThis policy is subject to regular review and may be updated as necessary to address evolving threats and regulations.",
+    "preview": "Purpose  When a student or staff member travels during the semester and is uncertain about accessing school information from a different country, this list identifies the countries where they will encounter issues.  Deta"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010023-SelfService_PasswordManagement.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 1,
+    "text": "Purpose\n\nThe purpose of this policy is to establish a standardized procedure for addressing user access issues related to email, Canvas, and the MyBobcat portal. Using MyBobcat Portal as the Self Service for the following\n\nFirst Time Login to STU\n\nForgotten Password\n\nForgotten Username\n\nLock Out – Call IT Service Desk\n\nPrerequisite\n\nAccount created through Admissions/ Human Resources\n\nSTU Username (first initial / first initial + last initial) + ID Badge Number\n\nEx. Mc1014445 or m10144455\n\nhttps://mybobcat.stu.edu/ - password Management\n\nIT Service Desk (954-305-6610)\n\nFirst time User\n\nForgot Password\n\nForgot Username",
+    "preview": "Purpose  The purpose of this policy is to establish a standardized procedure for addressing user access issues related to email, Canvas, and the MyBobcat portal. Using MyBobcat Portal as the Self Service for the followin"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010024-JAMF_EntMultiDeviceManagement.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 2,
+    "text": "Purpose\n\nThe purpose of using JAMF Pro for managing iPads is to streamline and enhance the management of Apple devices within an organization\n\nReleasing iPads to Student – KB0010118: complete Apple Store Unassign & Release process first.\n\nStudent forgot password to iPad\n\nFormat iPad repurposing\n\nLost iPad Lock\n\nRoles and Responsibilities\n\nSupport:\n\nPrimary: L1ServiceDesk – Full Time Associates (assign request item)\n\nSecondary: Desktop Services (assign request item)\n\nTechnical Support Services – Access to Console & Application Support\n\nUser Services for Support\n\nPrerequisites\n\nJAMF Pro Access – Create IT Support Request\n\nConsole- Jamf Pro Login (jamfcloud.com)\n\nDevice must be enrolled in Device List\n\nDetailed Procedure Steps\n\nNever guess or assume which system buttons or options to select; always seek guidance if you are uncertain\n\nProcedure: Clearing a Password on an iPad\n\nStep 1: Verify Device Information",
+    "preview": "Purpose  The purpose of using JAMF Pro for managing iPads is to streamline and enhance the management of Apple devices within an organization  Releasing iPads to Student – KB0010118: complete Apple Store Unassign & Relea"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010024-JAMF_EntMultiDeviceManagement.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 3,
+    "text": "Step 1: Verify Device Information\n\nDescription: Confirm the identity of the user requesting the password reset and ensure you have the correct iPad associated with the user. Cross-check the student's or user's ID with the information in the Jamf Pro system.\n\nResponsible Party: IT Administrator or Help Desk Staff\n\nTools/Resources: Jamf Pro console, User ID documentation\n\nExpected Outcome: Accurate identification of the iPad that needs the password reset.\n\nStep 2: Locate the iPad\n\nDescription: When inside Jamf Pro navigate to the \"Devices\" section in the Jamf Pro console. Search for the iPad by entering the device's name, serial number, or user ID in the search bar.\n\nResponsible Party: IT Administrator\n\nTools/Resources: Jamf Pro console\n\nExpected Outcome: The correct iPad is found and displayed in the list.\n\nStep 3: Verify Wi-Fi Connectivity",
+    "preview": "Step 1: Verify Device Information  Description: Confirm the identity of the user requesting the password reset and ensure you have the correct iPad associated with the user. Cross-check the student's or user's ID with th"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010024-JAMF_EntMultiDeviceManagement.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 4,
+    "text": "Step 3: Verify Wi-Fi Connectivity\n\nDescription: Ensure that the iPad is connected to a Wi-Fi network, as Jamf Pro requires an active Wi-Fi connection to communicate commands to the device. If the iPad is not connected to Wi-Fi, direct the user to connect to a network. If assistance is needed, refer the user to Marcella for further help.\n\nResponsible Party: Help Desk Staff\n\nTools/Resources: iPad, Wi-Fi network details\n\nExpected Outcome: The iPad is connected to Wi-Fi, allowing Jamf Pro commands to be successfully executed. If connectivity issues persist, Marcella provides additional support\n\nStep 4: Initiate Password Clear Command\n\nDescription: Select the iPad from the list and choose the option to \"Clear Passcode\" or \"Remove Passcode\" from the available actions. Confirm the action when prompted.\n\nResponsible Party: IT Administrator\n\nTools/Resources: Jamf Pro console\n\nExpected Outcome: The command to clear the password is successfully sent to the iPad.\n\nProcess Flow Diagram (if applicable)",
+    "preview": "Step 3: Verify Wi-Fi Connectivity  Description: Ensure that the iPad is connected to a Wi-Fi network, as Jamf Pro requires an active Wi-Fi connection to communicate commands to the device. If the iPad is not connected to"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010062-Canvas_Posted_AfterRegistration.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 5,
+    "text": "Purpose\n\nProcess to search for student classes in Canvas if Students cannot see their registered course(s).\n\nPerquisites\n\nIT Associate Access: FT IT Associates & Network Canvas Admin\n\nStudent ID – Validate Student\n\nDetermine if the professor has not yet posted the class.\n\nStudent Access:\n\nMy Bobcat access Canvas\n\nIT Support\n\nL1ServiceDesk Assignment\n\nEnt Application Services – Assign Support Steps are completed by L1ServiceDesk\n\nSupport Steps\n\nClass is not posted after registration (Diagram 1 & 2)\n\nClasses are not posted until professor posts class – see example diagram below to validate if Class was posted by professor\n\nClass is not in Canvas – additional Support needed\n\nCheck Colleague if student registered\n\nNeed Academic Class Code (Term = Academic Tear + Semester)\n\nValidate Class Posts in Canvas\n\nLog in to Admin Canvas Dashboard\n\nGo to the \"People\" tab.\n\nSearch by their ID number or Stu email\n\nEnrollments\n\nDetermine if the professor has not yet posted the class\n\nClass in blue = Posted [diagram1]\n\nClass in grey = Not posted [diagram2]\n\nDiagram 1\n\nDiagram 2",
+    "preview": "Purpose  Process to search for student classes in Canvas if Students cannot see their registered course(s).  Perquisites  IT Associate Access: FT IT Associates & Network Canvas Admin  Student ID – Validate Student  Deter"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010062-Canvas_Posted_AfterRegistration.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 6,
+    "text": "Diagram 2\n\nCollege Class Code Inquiry - Classes Not Posted in Canvas",
+    "preview": "Diagram 2  College Class Code Inquiry - Classes Not Posted in Canvas"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010068_HowToFindMAC_Address.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 7,
+    "text": "Purpose\n\nThe purpose of this policy is to assist users in locating MAC addresses\n\nScope\n\nThis policy gives users instructions in locating MAC addresses\n\nRoles and Responsibilities\n\nService Desk Associate: Responsible for guiding users through the process of locating MAC addresses.\n\nUser: Responsible for locating MAC adresses\n\nPrerequisites\n\nMust have device\n\nDetailed Procedure Steps\n\nPlayStation 5 (PS5)\n\nTurn on your PS5 and go to the home screen.\n\nNavigate to Settings (the gear icon in the top right corner).\n\nSelect Network.\n\nGo to Connection Status.\n\nChoose View Connection Status.\n\nThe MAC address for both the wired (Ethernet) and wireless (Wi-Fi) connections will be displayed here.\n\nXbox One\n\nTurn on your Xbox One and press the Xbox button on your controller to open the guide.\n\nGo to Profile & system (the profile icon).\n\nSelect Settings.\n\nNavigate to General.\n\nGo to Network settings.\n\nSelect Advanced settings.\n\nYou will find the MAC address under Wired MAC or Wireless MAC depending on your connection type.\n\nRoku",
+    "preview": "Purpose  The purpose of this policy is to assist users in locating MAC addresses  Scope  This policy gives users instructions in locating MAC addresses  Roles and Responsibilities  Service Desk Associate: Responsible for"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010068_HowToFindMAC_Address.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 8,
+    "text": "Roku\n\nTurn on your Roku device and press the Home button on your remote to get to the home screen.\n\nNavigate to Settings.\n\nSelect Network.\n\nChoose About.\n\nYou will see the MAC address listed here as Wireless MAC address or Ethernet MAC address, depending on your connection",
+    "preview": "Roku  Turn on your Roku device and press the Home button on your remote to get to the home screen.  Navigate to Settings.  Select Network.  Choose About.  You will see the MAC address listed here as Wireless MAC address "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010070_Updating_ActiveDirectory_STU.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 9,
+    "text": "Purpose\n\nUpdating Student, Faculty, Staff & Adjunct contact information received from HR, usually as a New Hire Ticket.\n\nOwners & Prerequisites\n\nNetwork Services grants access to Users and Computers (AD)– L1ServiceDesk\n\nAccess to Organizational Tab\n\nStep by Step\n\nOpen Active Directory\n\nSearch for Group = All STU\n\nRight click on Group/ Properties\n\nClick on Member\n\nAdd Member Name to Group – Apply\n\nDouble Click on Member Name\n\nGeneral Tab Add\n\nOffice Name\n\nTelephone Number\n\nOrganization Tab Add\n\nAdd\n\nREF DOC KNOWLEDGE BASE",
+    "preview": "Purpose  Updating Student, Faculty, Staff & Adjunct contact information received from HR, usually as a New Hire Ticket.  Owners & Prerequisites  Network Services grants access to Users and Computers (AD)– L1ServiceDesk  "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010071_How to Find a 'User' in Colleague.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 10,
+    "text": "Purpose\n\nLocating a name in Colleague- it keeps everyone’s information such as their names, phone number, social security number and address.\n\nPrerequisites:\n\nAccess to Colleague https://webui.stu.edu/ui/home/index.html\n\nAccess to NAE section in colleague\n\nOwners: TECHNICAL SERVICES\n\nDetailed Procedure Steps\n\nOpen Colleague\n\nLogin to Colleague with proper login credentials\n\nSelect OK\n\nType NAE (name and address entry)\n\nClick on NAE (name and address entry) box\n\nSearch by name or ID number\n\nSelect the user you are searching for\n\nIf changing someone’s password over the phone confirm identity first by asking for the last four digits of users social.\n\nProcess Flow Diagram (if applicable)\n\nREF: KNOWLEDGE BASE",
+    "preview": "Purpose  Locating a name in Colleague- it keeps everyone’s information such as their names, phone number, social security number and address.  Prerequisites:  Access to Colleague https://webui.stu.edu/ui/home/index.html "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010072_JAMF_Release_iPad.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 11,
+    "text": "Purpose\n\nThe purpose of using JAMF Pro for managing iPads is to streamline and enhance the management of Apple devices within an organization\n\nThe purpose of using Apple School is to work alongside JAMF, enhancing the experience and helping manage iPads more effectively\n\nRoles and Responsibilities\n\nSupport:\n\nPrimary: L1ServiceDesk – Full Time Associates (assign request item)\n\nSecondary: Desktop Services (assign request item)\n\nTechnical Support Services – Access to Console & Application Support\n\nPrerequisites\n\nJAMF Pro Access – Create IT Support Request\n\nConsole- JAMF Pro Login (jamfcloud.com)\n\nApple School Access - Create IT Support Request\n\nConsole- Apple School Manager\n\nDevice must be enrolled in Device List – IT Administrative Access\n\nTools/Resources: iPad, Wi-Fi network details, JAMF steps first, Apple School\n\nDetailed Procedure Steps\n\nNever guess or assume which system buttons or options to select; always seek guidance if you are uncertain\n\nProcedure: Releasing iPad from school\n\nStep 1: Verify Device Information",
+    "preview": "Purpose  The purpose of using JAMF Pro for managing iPads is to streamline and enhance the management of Apple devices within an organization  The purpose of using Apple School is to work alongside JAMF, enhancing the ex"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010072_JAMF_Release_iPad.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 12,
+    "text": "Step 1: Verify Device Information\n\nDescription: Confirm the identity of the user requesting the password reset and ensure you have the correct iPad associated with the user. Cross-check the student's or user's ID with the information in the JAMF Pro system.\n\nResponsible Party: IT Administrator or Help Desk Staff\n\nTools/Resources: JAMF Pro console, User ID documentation\n\nExpected Outcome: Accurate identification of the iPad that needs the password reset.\n\nStep 2: Locate the iPad\n\nDescription: When inside JAMF Pro navigate to the \"Devices\" section in the JAMF Pro console. Search for the iPad by entering the device's name, serial number, or user ID in the search bar.\n\nResponsible Party: IT Administrator\n\nTools/Resources: JAMF Pro console\n\nExpected Outcome: The correct iPad is found and displayed in the list.\n\nStep 3: Verify Wi-Fi Connectivity",
+    "preview": "Step 1: Verify Device Information  Description: Confirm the identity of the user requesting the password reset and ensure you have the correct iPad associated with the user. Cross-check the student's or user's ID with th"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010072_JAMF_Release_iPad.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 13,
+    "text": "Step 3: Verify Wi-Fi Connectivity\n\nDescription: Ensure that the iPad is connected to a Wi-Fi network, as JAMF Pro requires an active Wi-Fi connection to communicate commands to the device. If the iPad is not connected to Wi-Fi, direct the user to connect to a network. If assistance is needed, refer the user to Marcella for further help.\n\nResponsible Party: Help Desk Staff\n\nTools/Resources: iPad, Wi-Fi network details\n\nExpected Outcome: The iPad is connected to Wi-Fi, allowing JAMF Pro commands to be successfully executed. If connectivity issues persist, Marcella provides additional support\n\nStep 4: Initiate Restart Device\n\nDescription: Select the iPad from the list and choose the option to \"Restart Device” from the available actions. Confirm the action when prompted.\n\nResponsible Party: IT Administrator\n\nStep 5: Go to Apple School\n\nDescription: Select the Devices and press search using the iPad’s Serial number.\n\nResponsible Party: IT Administrator\n\nStep 6: When looking at the iPad Information",
+    "preview": "Step 3: Verify Wi-Fi Connectivity  Description: Ensure that the iPad is connected to a Wi-Fi network, as JAMF Pro requires an active Wi-Fi connection to communicate commands to the device. If the iPad is not connected to"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010072_JAMF_Release_iPad.docx",
+    "chunk_id": 3,
+    "chunk_global_id": 14,
+    "text": "Step 6: When looking at the iPad Information\n\nDescription: Click the three small dots in the right corner and press Release from Organization\n\nProcess Flow Diagram",
+    "preview": "Step 6: When looking at the iPad Information  Description: Click the three small dots in the right corner and press Release from Organization  Process Flow Diagram"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010076_ NewHireSetupProcedures_V4.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 15,
+    "text": "Overview This procedure is followed whenever an employee is onboarded to the university. It is triggered when Human Resources emails the helpdesk with a “New Employee”. The process should be tracked in a SNOW ticket.\n\nStep-by-step instructions IT (Helpdesk) and several departments (Facilities, Public Safety, HR-Payroll, Registrars, Marketing, and Supervisor) receive an email from an HR-Generalist with new employee info.\n\nSample:\n\nEmployee Name: MD Kishor Morol ID Number: 1019532\n\nTitle: Adjunct in Computer Science\n\nSupervisor: Bernard Parenteau/Jeffrey Plunkett\n\nDepartment: Computer Science\n\nOffice Assignment: N/A Start date: 08/17/2024\n\nHardware Process\n\nDeployment/Procurement of Hardware\n\nRequest is created in SNOW\n\nConfirms with the Supervisor if the position is New or Replacement\n\nIF Replacement Position– Process existing device (Backup, Wipe, Image)\n\nBackup - SharePoint Migration tool – copy to Ex-Employees Site\n\nWipe/Image – Microsoft Deployment Tools (See MDT Instructions)\n\nName machine: email excluding @stu.edu – alopez-“type” (type=laptop: lpt, workstation:pc)",
+    "preview": "Overview This procedure is followed whenever an employee is onboarded to the university. It is triggered when Human Resources emails the helpdesk with a “New Employee”. The process should be tracked in a SNOW ticket.  St"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010076_ NewHireSetupProcedures_V4.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 16,
+    "text": "Name machine: email excluding @stu.edu – alopez-“type” (type=laptop: lpt, workstation:pc)\n\nIF New Position\n\nStandard Equipment Selection:\n\nLaptop/Desktop: Select from pre-approved models (based on the role).\n\nIF Desktop:\n\nSet up physical equipment in the employee's office (if on-site).\n\nTesting: Verify that all hardware components function correctly.\n\nIF Laptop:\n\nSet up physical equipment such as docking stations and peripherals in the employee's office (if on-site).\n\nTesting: Verify that all hardware components function correctly.\n\nPeripherals: Monitors, docking stations, keyboard/mouse, headset, etc.\n\nMobile Devices: Smartphones or tablets if required by the role.\n\nSpecialized Equipment: High-end workstations, additional monitors, or specialized devices for research or technical roles.\n\nInventory Check: Ensure the selected hardware is available in inventory or initiate a procurement process.\n\nOrder Placement: If hardware needs to be purchased, place the order and track delivery timelines.\n\nInventory update",
+    "preview": "Name machine: email excluding @stu.edu – alopez-“type” (type=laptop: lpt, workstation:pc)  IF New Position  Standard Equipment Selection:  Laptop/Desktop: Select from pre-approved models (based on the role).  IF Desktop:"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010076_ NewHireSetupProcedures_V4.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 17,
+    "text": "Inventory update\n\nEnsure serial number of device(s) is logged into appropriate database to track user and device.\n\nSoftware Process\n\nSoftware Licensing and Procurement\n\nImaging:\n\nStandard Image: Deploy a standard image with pre-installed software and settings.\n\nCustomization: Apply customizations based on the role and department requirements.\n\nRole-Specific Software:\n\nInstall discipline-specific applications (e.g., AutoCAD for architecture, SPSS for social sciences).\n\nLicense Management: Verify if additional licenses are needed and acquire them.\n\nAccount Creation and Access Configuration\n\nNetwork Accounts\n\nActive Directory Account:\n\nShould be fed by Colleague, ensure user account creation for network access.\n\nAccess to Systems:\n\nEnterprise Application Access: Grant access to required applications\n\nDepartmental Systems: Help user sync OneDrive and Sharepoint to local machine, if desired\n\nTesting and Quality Assurance\n\nHardware Testing\n\nRun Diagnostics: Ensure all hardware components are functioning as expected.\n\nConnectivity Tests: Verify network connectivity, including Wi-Fi and VPN.",
+    "preview": "Inventory update  Ensure serial number of device(s) is logged into appropriate database to track user and device.  Software Process  Software Licensing and Procurement  Imaging:  Standard Image: Deploy a standard image w"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010076_ NewHireSetupProcedures_V4.docx",
+    "chunk_id": 3,
+    "chunk_global_id": 18,
+    "text": "Connectivity Tests: Verify network connectivity, including Wi-Fi and VPN.\n\nSoftware Testing\n\nLogin Verification: Confirm the employee can log in to all required systems.\n\nApplication Testing: Ensure all installed software is functioning correctly.\n\nEmail and Calendar: Test the email and calendaring system.\n\nSecurity Verification\n\nAntivirus/Malware: Ensure real-time protection is active.\n\nUser Permissions: Confirm that the employee has the correct access levels.\n\nDeployment and Handover\n\nOnboarding Session: Schedule a session to introduce the employee to the university’s IT systems.\n\nDirect Employee to appropriate Training and Documentation\n\nSupervisor should direct new employee to Power User that can provide training on key software, security protocols, and helpdesk procedures.\n\nSupervisor to provide new employee with documentation\n\nuser manuals, quick start guides, and contact information for IT support.\n\nAbove documents likely to be created by Business Analysts\n\nFinal Handover:\n\nDevice Delivery: Ensure the employee receives all necessary hardware.",
+    "preview": "Connectivity Tests: Verify network connectivity, including Wi-Fi and VPN.  Software Testing  Login Verification: Confirm the employee can log in to all required systems.  Application Testing: Ensure all installed softwar"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010076_ NewHireSetupProcedures_V4.docx",
+    "chunk_id": 4,
+    "chunk_global_id": 19,
+    "text": "Device Delivery: Ensure the employee receives all necessary hardware.\n\nAccess Credentials: Provide login information and temporary passwords (with instructions to change them).\n\nRemote Setup (if applicable):\n\nRemote Access Support: Assist with setting up VPN and remote access tools.\n\nShipping: If the employee is remote, ensure all hardware is shipped and received on time.\n\nDemonstrate how to access helpdesk and IT website\n\nUpdating Support Ticket\n\nUpdate the case in SNOW with the device serial number and any pertinent notes, change status of ticket to resolved/closed.\n\nDeployment Support\n\nFollow-Up:\n\nCheck-In: Schedule a follow-up to ensure everything is working correctly and to address any issues.",
+    "preview": "Device Delivery: Ensure the employee receives all necessary hardware.  Access Credentials: Provide login information and temporary passwords (with instructions to change them).  Remote Setup (if applicable):  Remote Acce"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010077_PearsonBrowserSupport.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 20,
+    "text": "Purpose\n\nThe purpose of using Pearson is to manage student data, like test scores and study time, to identify patterns and enhance learning outcomes. Website that assists with Homework and Quizes.\n\nPrerequisites\n\nSTU student\n\nCourse with the requirement of Pearson\n\nSign in | Pearson [create Account]\n\nTeacher creates via Canvas leading to the Pearson Portal\n\nGoogle Docs Only, Safari doesn’t work\n\nDetailed Procedure Steps\n\nStep 1: Check Browser\n\nDescription: Pearson DOES NOT work in safari only in Google docs\n\nPearson Support:\n\nPearson Higher Education Support Home\n\nContact Support\n\nREF: KNOWLEDGE BASE",
+    "preview": "Purpose  The purpose of using Pearson is to manage student data, like test scores and study time, to identify patterns and enhance learning outcomes. Website that assists with Homework and Quizes.  Prerequisites  STU stu"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010078_APEA_ProgramSupport.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 21,
+    "text": "Purpose\n\nThe purpose of this document is to provide students with the necessary steps and information to log in to their APEA accounts. APEA is an external tool available to STU students, essential for accessing study resources and materials.\n\nRoles and Responsibilities\n\nDoris Teran (Chief Nursing Office)\n\nEmail: DTeran@stu.edu\n\nPhone: (305) 474-6833\n\nPrerequisites\n\nKnowledge of the student’s correct APEA email format (STUDENT_NAME@stu.edu)\n\nwww.apea.com\n\nDetailed Procedure Steps\n\nOBS: This can be used as an email guideline to send to students that need help with APEA access.\n\nGo to the APEA Login Page (1)\n\nOpen your web browser and type in www.apea.com.\n\nReset Your Password (if needed) (2)\n\nIf this is your first time logging in and you haven’t received a welcome email:\n\nClick on the \"Forgot Password?\" Link. (2.2)\n\nEnter your username (it should look like STUDENT_NAME@stu.edu) and submit.\n\nCheck your email for a password reset link.\n\nLog In\n\nOnce you have your password:\n\nReturn to the login page.\n\nEnter your username: STUDENT_NAME@stu.edu.\n\nEnter your password and click Log In.",
+    "preview": "Purpose  The purpose of this document is to provide students with the necessary steps and information to log in to their APEA accounts. APEA is an external tool available to STU students, essential for accessing study re"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010078_APEA_ProgramSupport.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 22,
+    "text": "Enter your password and click Log In.\n\nAccess Study Materials\n\nAfter logging in, you’ll be taken to your account dashboard.\n\nNavigate to MyQBank to find your study resources.\n\nUsing the APEA Mobile App\n\nDownload the APEA Mobile App.\n\nSelect MyQBank from the dropdown menu to access your materials.\n\nStill need help?\n\nAPEA Support Phone Number: 800-899-4502\n\nProcess Flow Diagram (if applicable)\n\nStep 1:\n\nStep 2:\n\nStep 2.1:\n\nSample email Response\n\nHello [Student's Name],\n\nI hope this email finds you well. Below are the step-by-step instructions to access your APEA account. Please note that the IT Department does not have access to assist students with APEA account issues. For further assistance, please contact the individuals provided in this email.\n\n1. Go to the APEA Login Page\n\nOpen your web browser and type in www.apea.com.\n\n2. Reset Your Password (if needed)",
+    "preview": "Enter your password and click Log In.  Access Study Materials  After logging in, you’ll be taken to your account dashboard.  Navigate to MyQBank to find your study resources.  Using the APEA Mobile App  Download the APEA"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010078_APEA_ProgramSupport.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 23,
+    "text": "2. Reset Your Password (if needed)\n\nIf this is your first time logging in and you haven’t received a welcome email, click on the \"Forgot Password?\" link. Enter your username (it should look like STUDENT_NAME@stu.edu) and submit. Check your email for a password reset link.\n\n3. Log In\n\nOnce you have your password, return to the login page. Enter your username: STUDENT_NAME@stu.edu. Enter your password and click Log In.\n\n4. Access Study Materials\n\nAfter logging in, you’ll be taken to your account dashboard. Navigate to MyQBank to find your study resources.\n\n5. Using the APEA Mobile App\n\nDownload the APEA Mobile App. Select MyQBank from the dropdown menu to access your materials.\n\nIf you still need help, here is the APEA Support Phone Number: 800-899-4502.\n\nFor additional support, you can also reach out to:\n\nDoris Teran\n\nEmail: DTeran@stu.edu\n\nPhone: (305) 474-6833\n\nBest regards,\n\n[Your Name]\n\nIT Department",
+    "preview": "2. Reset Your Password (if needed)  If this is your first time logging in and you haven’t received a welcome email, click on the \"Forgot Password?\" link. Enter your username (it should look like STUDENT_NAME@stu.edu) and"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010079_ManagingMailbox_Not_Alerts_Reminders.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 24,
+    "text": "How to create Notifications, Alerts & Reminders\n\nHow to navigate to alert settings\n\nWeb Version (Outlook.stu.edu) O365\n\nSettings\n\nGeneral\n\nNotifications\n\nGeneral > Notifications\n\nClient (downloaded) Version\n\nCreate a Notification\n\nFile\n\nOptions\n\nMail\n\nCreate a Reminder\n\nAdvanced\n\nReminders\n\nCreate an Alert\n\nFile\n\nManage Rules & Alerts\n\nManage Alerts",
+    "preview": "How to create Notifications, Alerts & Reminders  How to navigate to alert settings  Web Version (Outlook.stu.edu) O365  Settings  General  Notifications  General > Notifications  Client (downloaded) Version  Create a Not"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010081-ManagingSTU__mailbox.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 25,
+    "text": "Purpose\n\nEffectively managing your mailbox is essential for maintaining productivity, ensuring timely responses, and staying organized. Proper mailbox management helps prevent important messages from being overlooked and reduces the stress associated with email overload.\n\nPrerequisites\n\nAccess to STU Office 365\n\nTechniques for Managing Your Mailbox\n\nUse Folders/Labels: Organize emails\n\nCategorize Emails\n\nSet Up Filters/Rules: Automatically route incoming emails to specific folders or label them based on sender or content, reducing clutter in your inbox.\n\nUse Flags/Alert: Mark important emails that need immediate attention, follow-up, or tracking, ensuring they remain visible until addressed. KB0010079\n\nConditional Formatting: Color coding emails\n\nSetup Priority Alerts: New Item Alert Windows- KB0010079\n\nProcess Overview\n\nUse Folders/Labels: Organize Emails\n\nPurpose: Create a structured system by organizing emails into specific folders or applying labels. Categories can include projects, departments, or urgency levels (e.g., \"Urgent\", \"To-Do\", \"Completed\").",
+    "preview": "Purpose  Effectively managing your mailbox is essential for maintaining productivity, ensuring timely responses, and staying organized. Proper mailbox management helps prevent important messages from being overlooked and"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010081-ManagingSTU__mailbox.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 26,
+    "text": "Purpose: Create a structured system by organizing emails into specific folders or applying labels. Categories can include projects, departments, or urgency levels (e.g., \"Urgent\", \"To-Do\", \"Completed\").\n\nBenefit: Provides a clean and organized inbox, making it easier to find and manage emails based on their topic or importance.\n\nCategorize Emails\n\nPurpose: Assign categories (or labels in Gmail) to group emails for better organization, such as by project, team, or action required.\n\nBenefit: Streamlines email management by allowing you to quickly filter and sort emails based on predefined categories.\n\nSet Up Filters/Rules\n\nPurpose: Automate the organization of emails by setting filters or rules to move incoming messages to specific folders or apply labels based on criteria such as sender, subject, or keywords.\n\nBenefit: Reduces clutter in your inbox by automatically sorting emails into relevant categories, saving you time and ensuring important emails are easily accessible.\n\nUse Flags/Stars",
+    "preview": "Purpose: Create a structured system by organizing emails into specific folders or applying labels. Categories can include projects, departments, or urgency levels (e.g., \"Urgent\", \"To-Do\", \"Completed\").  Benefit: Provide"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010081-ManagingSTU__mailbox.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 27,
+    "text": "Use Flags/Stars\n\nPurpose: Mark emails that require immediate attention, follow-up, or further action using flags (Outlook) or stars (Gmail).\n\nBenefit: Helps prioritize tasks and ensures that important emails remain visible until they’re addressed.\n\nConditional Formatting: Color-Coding Emails\n\nPurpose: Visually distinguish emails by applying different colors based on criteria such as sender, subject, or priority.\n\nBenefit: Provides a quick, visual way to prioritize emails and identify important messages immediately, improving workflow efficiency.\n\nSet Up Priority Alerts: New Item Alert Windows\n\nPurpose: Create priority alerts, such as pop-ups or sounds, for high-priority emails, ensuring you're notified as soon as they arrive.\n\nBenefit: Ensures timely responses to critical communications, preventing important messages from being missed.",
+    "preview": "Use Flags/Stars  Purpose: Mark emails that require immediate attention, follow-up, or further action using flags (Outlook) or stars (Gmail).  Benefit: Helps prioritize tasks and ensures that important emails remain visib"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010085_WIFI_SELFREGISTRATIONPORTAL.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 28,
+    "text": "Purpose\n\nRegister Streaming Devices on the STU Wifi network.\n\nSTU WIFI Self Registration Portal\n\nTo register gaming systems or streaming devices on the STU Wifi network, follow these instructions:\n\nOBTAIN MAC ADDRESS\n\nBefore opening the self-registration portal, you must obtain the MAC address of the device to be added. Follow instructions here on how to find the MAC address of your device.\n\nOnce the MAC address is known, open the portal on a connected device by going to http://stu-nac1.stu.edu/self_registration or http://stu-nac2.stu.edu/self_registration\n\n*there is an underscore between self and registration\n\nlogin page will be presented where you must enter your STU Username and STU password:\n\nAfter logging in, all registered devices under your login will appear in a list:\n\nTo add a device, click the Add button, then enter your STU Username, MAC Address and a Description of your device (for example, XBox). Then click the Submit button. The device will now be added to your connected devices list:",
+    "preview": "Purpose  Register Streaming Devices on the STU Wifi network.  STU WIFI Self Registration Portal  To register gaming systems or streaming devices on the STU Wifi network, follow these instructions:  OBTAIN MAC ADDRESS  Be"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010085_WIFI_SELFREGISTRATIONPORTAL.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 29,
+    "text": "To add a device, click the Add button, then enter your STU Username, MAC Address and a Description of your device (for example, XBox). Then click the Submit button. The device will now be added to your connected devices list:\n\n6. To delete a device, check the box next to its MAC Address, then click the Delete button.\n\nConfirm delete by clicking the OK button, or you can Cancel\n\nHow to find the MAC Address?\n\nTo find your game console or streaming device’s MAC Address, follow the relevant instructions below.\n\nA valid MAC Address will have the format of twelve hexadecimal numbers, generally separated by colons (for example, 01:23:4D:67:B9:0A).\n\nNintendo Consoles\n\nSony Consoles\n\nMicrosoft Consoles\n\nOther Streaming Devices\n\nNintendo Consoles\n\nNintendo DS\n\nTo locate the MAC Address from a Nintendo DS, you must first insert a Nintendo Wi-Fi Connection\n\ncompatible game and access the WFC Setup Utility. Please note that the exact steps to access the\n\nsetup utility varies by game. However, the setup utility is a standard menu, included with all WFCcompatible games.",
+    "preview": "To add a device, click the Add button, then enter your STU Username, MAC Address and a Description of your device (for example, XBox). Then click the Submit button. The device will now be added to your connected devices "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010085_WIFI_SELFREGISTRATIONPORTAL.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 30,
+    "text": "setup utility varies by game. However, the setup utility is a standard menu, included with all WFCcompatible games.\n\nAfter accessing the utility, tap Options, then System Information.\n\nThe MAC Address and Nintendo WFC ID will be listed on the screen. Unless the game player has\n\nsuccessfully connected with Nintendo Wi-Fi Connection, the WFC ID will be blank.\n\nNintendo 3DS\n\nTo locate the MAC Address of your 3DS:\n\n1. From the Home menu, highlight and select the System Settings Icon.\n\n2. Select Internet Settings.\n\n3. Tap Other Information.\n\n4. Tap Confirm MAC Address. Your system's MAC Address will be displayed on the screen.\n\nWii U\n\nTo locate the MAC Address of your Wii U console:\n\n1. From the Wii U Menu, select System Settings.\n\n2. Using the Left Stick select the Internet icon and press the A Button.\n\n3. Select View MAC Address and wait a moment for the MAC Address to be displayed.\n\nSony Consoles\n\nPlaystation 3\n\nTo locate the MAC Address of your Playstation 3 console:\n\nFrom the main menu, select Settings.\n\nSelect System Settings.\n\nSelect System Information.",
+    "preview": "setup utility varies by game. However, the setup utility is a standard menu, included with all WFCcompatible games.  After accessing the utility, tap Options, then System Information.  The MAC Address and Nintendo WFC ID"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010085_WIFI_SELFREGISTRATIONPORTAL.docx",
+    "chunk_id": 3,
+    "chunk_global_id": 31,
+    "text": "Select System Information.\n\nThe MAC Address will then be displayed on the screen.\n\nPlaystation 4\n\nTo locate the MAC Address of your Playstation 4 console:\n\nArrow up and over to Settings in the PS4 menu.\n\nScroll down to Network.\n\nScroll down to View Connection Status.\n\nThe MAC Address will be listed next to MAC Address.\n\nPSP\n\nTo locate the MAC Address of your PlayStation Portable (PSP):\n\n1. Navigate to System Settings.\n\n2. Then navigate to System Information, which is where the MAC Address is listed.\n\nMicrosoft Consoles\n\nXbox 360\n\nNavigate to My Xbox on the Xbox Dashboard.\n\nSelect System Settings.\n\nSelect Network Settings.\n\nSelect Configure Network.\n\nUnder Basic Settings check to make sure IP Settings is set to Automatic.\n\nGo to Additional Settings.\n\nSelect Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.\n\nXbox One\n\nTo locate the MAC Address of your Xbox One console:\n\nNavigate to My Games and Apps\n\nSelect Settings.\n\nSelect Network.\n\nSelect Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.",
+    "preview": "Select System Information.  The MAC Address will then be displayed on the screen.  Playstation 4  To locate the MAC Address of your Playstation 4 console:  Arrow up and over to Settings in the PS4 menu.  Scroll down to N"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010085_WIFI_SELFREGISTRATIONPORTAL.docx",
+    "chunk_id": 4,
+    "chunk_global_id": 32,
+    "text": "Select Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.\n\nOther Streaming Devices\n\nApple TV\n\nWith your Apple TV remote, navigate to the Settings icon and select it\n\nFrom the Settings menu, select General.\n\nUnder General, select Network.\n\nYour MAC Address will be next to either Wi-Fi Address or Ethernet Address, depending on whether you are connected to the internet via Wi-Fi or a wired connection.\n\nChromecast\n\nOpen the Chromecast app on your computer. If you have set up your Chromecast recently, you'll find a shortcut to the app on your desktop. Otherwise, Windows users should check the Start Menu and Mac users should check Applications.\n\nClick Settings, and the MAC Address will be at the bottom of the window.\n\nRoku\n\nOn the back on your Roku there are a pair of six 2-digit pairs separated by colons, e.g. 00:0D:0A:1H:3G:5C. One set is for the Ethernet connector and for the other for the wireless connector.\n\nAlternatively, from the Roku home screen, select Settings, then Player info. The Addresses will be listed on-screen.",
+    "preview": "Select Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.  Other Streaming Devices  Apple TV  With your Apple TV remote, navigate to the Settings icon and select it  From the Se"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010085_WIFI_SELFREGISTRATIONPORTAL.docx",
+    "chunk_id": 5,
+    "chunk_global_id": 33,
+    "text": "Alternatively, from the Roku home screen, select Settings, then Player info. The Addresses will be listed on-screen.\n\nSmart TV/Blu-ray Player\n\nMost MAC Addresses will be visible in the Settings Menu, either under the Network or About sections.\n\nZlternatively, check with the manufacturer for instructions on how to obtain the MAC Address for your specific model",
+    "preview": "Alternatively, from the Roku home screen, select Settings, then Player info. The Addresses will be listed on-screen.  Smart TV/Blu-ray Player  Most MAC Addresses will be visible in the Settings Menu, either under the Net"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010090- OIT_ServiceDesk_Hours of Operation.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 34,
+    "text": "Purpose\n\nThis procedure outlines the Office of Information Technology’s (OIT) standard hours of operation, ensuring consistent availability of IT services to the university community.\n\nHours of Operation\n\nRegular Business Hours: Monday – Friday, 9:00 AM – 5:00 PM, Dooner 109\n\nx6610\n\nDirect: 305-628-6610\n\nIT Leaders may reduce coverage hours during certain times of year (Summer, Spring break, etc. )\n\nLunch Break Coverage: IT staff will stagger lunch breaks to maintain service availability\n\nObserved Holidays: OIT follows the university’s official staff holiday schedule\n\nPrerequisites\n\nAccess to the Outlook OIT Absence Calendar (Network Services)\n\nOpen oitabcal@stu.edu on your outlook\n\nPart-Time IT Associates - Calendar (STU Information Technology SharePoint Site)\n\nIT Contact List (Emergency Contacts)\n\nSupport Availability – Dooner 109\n\nL1Service Desk Support - Primary Coverage\n\nDesktop Support Services & AV/Media Services – Secondary\n\nBack up Support – Network Services & Enterprise Applications Team",
+    "preview": "Purpose  This procedure outlines the Office of Information Technology’s (OIT) standard hours of operation, ensuring consistent availability of IT services to the university community.  Hours of Operation  Regular Busines"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010090- OIT_ServiceDesk_Hours of Operation.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 35,
+    "text": "Back up Support – Network Services & Enterprise Applications Team\n\n*Dooner 109 – should always be staffed with at least 1 person. If you must leave it is mandatory notify the manager/full-time onsite Service Desk associate, in addition to locating someone in the office to replace you. Best to reach out in Teams if no one appears available on site.\n\nWalk-In Support: Available at the OIT Service Desk during operating hours\n\nPhone Support: Calls will be answered during regular business hours\n\nEmail & Ticketing System: Requests submitted outside of business hours will be addressed on the next business day\n\nOn-Call/Emergency Support: Limited emergency support may be available for critical issues affecting university-wide systems\n\nAfter-Hours Support – TBA not available, only emergency escalations\n\nCritical outages outside of operating hours should be reported to [Escalation Doc - TBA]\n\nRoutine IT requests will be addressed on the next business day.\n\nResponsibilities (Action Items)\n\nDAILY",
+    "preview": "Back up Support – Network Services & Enterprise Applications Team  *Dooner 109 – should always be staffed with at least 1 person. If you must leave it is mandatory notify the manager/full-time onsite Service Desk associa"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010090- OIT_ServiceDesk_Hours of Operation.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 36,
+    "text": "DAILY\n\nIT Associates Full Time/ Part-Time Validate your schedule on the Part-Time IT Associates- Calendar Located on SharePoint\n\nAdhere to your schedule time – on time ready to work\n\nLog into Paycom (clock in) when you ARRIVE at Dooner 109\n\nLogged into Teams\n\nLogged into your STU email\n\nLogged into ServiceNow Ticket Overview and My Pending Incidents & Requests\n\nLogged into the phone Queue (TBA) – 03/2025 currently all phone ring at the same time.\n\nAbsent / Personal Time Off\n\nUnplanned Time Off: In the event of illness/emergency, reach out as soon as possible before your scheduled time to manager and post it to Teams, to let the team know. A Full-Time Employee will post to the Outlook OIT Absence Calendar.\n\nFull-Time: Add entry to Paycom next business day of work\n\nIf you miss your shift, you must see the manager to see if you could make up the time, if there is a seat available.\n\nPlanned /Remote– Add to the Outlook OIT Absence Calendar, reach out to your manager to make sure the schedule is adjusted due to schedule changing or PTO.\n\nFull-Time: Add Vacation Entry to Paycom",
+    "preview": "DAILY  IT Associates Full Time/ Part-Time Validate your schedule on the Part-Time IT Associates- Calendar Located on SharePoint  Adhere to your schedule time – on time ready to work  Log into Paycom (clock in) when you A"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010090- OIT_ServiceDesk_Hours of Operation.docx",
+    "chunk_id": 3,
+    "chunk_global_id": 37,
+    "text": "Full-Time: Add Vacation Entry to Paycom\n\nAdd your name to the Calendar and Description\n\nExample: Michelle – PTO All Day, or Michelle – Late Arrival 11:30AM\n\nPaycom\n\nAll non-exempt employees must punch into Paycom when they arrive in the office.\n\nDo not punch in prior to entering the office\n\nAll non-exempt employees must punch out after each shift is finished, while in the office.\n\n*If you forget to punch in or punch reach out to manager in teams so that I can adjust your punch.\n\nShhhh – Only the elite will make it this far– Message me (Michelle Cortina) on teams and I will buy lunch for whomever reads this to the end.",
+    "preview": "Full-Time: Add Vacation Entry to Paycom  Add your name to the Calendar and Description  Example: Michelle – PTO All Day, or Michelle – Late Arrival 11:30AM  Paycom  All non-exempt employees must punch into Paycom when th"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010092 -ServiceNowDefault_Dashboard.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 38,
+    "text": "PURPOSE\n\nThe purpose of these instructions is to guide users through setting their ServiceNow start page to a preferred dashboard for quick access to critical information. This ensures efficiency by automatically opening the most relevant workspace upon login, reducing navigation time.\n\nREQUIREMENTS\n\nServiceNow- ITIL Permission\n\nSharePoint STU Information Technology view, read / owner permissions\n\nServiceNow Home Page Default\n\nStep 1: Access ServiceNow from OIT SharePoint\n\n✅ 1. Open STU Information Technology in your browser. ✅ 2. Locate and click the SNOW (ServiceNow) link. ✅ 3. Once in ServiceNow, click on Home Page - Dashboard to navigate to your desired start page.\n\nShould Display – My Pending Incidents & Requests [Diagram 1 below]\n\nMy Open Incidents\n\nMy Open Requests\n\nPending Interactions\n\nP1 & P2 Incidents\n\nMy Group Open Incidents & Requests (All incidents & Requests all groups you are in)\n\nStep 2: Update Preferences to Set Start Page",
+    "preview": "PURPOSE  The purpose of these instructions is to guide users through setting their ServiceNow start page to a preferred dashboard for quick access to critical information. This ensures efficiency by automatically opening"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010092 -ServiceNowDefault_Dashboard.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 39,
+    "text": "Step 2: Update Preferences to Set Start Page\n\n✅ 4. Click on your profile icon (top-right corner). ✅ 5. Select Preferences from the dropdown menu. ✅ 6. Scroll to the Display section. ✅ 7. Find the Current Start Page setting. ✅ 8. Click Use Page I'm On Now to set your current page as the default. ✅ 9. Click Save or close the menu (changes should auto-save).\n\nStep 3: Verify Your Settings\n\n✅ 10. Log out of ServiceNow. ✅ 11. Log back in to confirm that your selected page loads by default.\n\nYou will now have access to toggle back and forth between the shared Dashboards.\n\nDiagram 1",
+    "preview": "Step 2: Update Preferences to Set Start Page  ✅ 4. Click on your profile icon (top-right corner). ✅ 5. Select Preferences from the dropdown menu. ✅ 6. Scroll to the Display section. ✅ 7. Find the Current Start Page setti"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010093- HowTo-RequestServiceNow.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 40,
+    "text": "Purpose\n\nProvide internal and external instructions on how to make an incident for all technical needs\n\nPrerequisites\n\nMust have access to https://mybobcat.stu.edu\n\nMust be a member of one of the following:\n\nconstituency STAFF\n\nconstituency Students\n\nconstituency Faculty\n\nOIT Staff\n\nSend email to incident@stu.edu [this only works for internal OIT, Office of Information Technology group - if a user tries to use it will do nothing]. Refrain from FW: or RE: to helpdesk@stu.edu or stuhelpdesk@stu.edu\n\nInclude who is the Request For\n\nIdentify who L1ServiceDesk should assign to [Group and / person]\n\nShort Description\n\nValid Business Reason on why customer needs Request\n\nRequest For contact information\n\nurgency and time frame\n\nLocation of User\n\n--OR -- Go to https://servicedesk.stu.edu and create a ‘Something Is Broken’ incident using the Service Catalog on the customer portal.\n\nCustomer (student, faculty, staff)\n\nGo to https://servicedesk.stu.edu and create an IT Request from the Service Catalog",
+    "preview": "Purpose  Provide internal and external instructions on how to make an incident for all technical needs  Prerequisites  Must have access to https://mybobcat.stu.edu  Must be a member of one of the following:  constituency"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010093- HowTo-RequestServiceNow.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 41,
+    "text": "Go to https://servicedesk.stu.edu and create an IT Request from the Service Catalog\n\n--OR—Email Helpdesk@stu.edu (stuhelpdesk@stu.edu also works) – This will automatically create an interaction UNLESS the subject contains FW: or RE:\n\nSNOW creates an Interaction\n\nService Desk [L1Service Desk] receives interaction, identifies as a INCIDENT, and clicks on Create request and assigns accordingly\n\n--OR-- Scan the QR code. SNOW creates an Interaction\n\nService Desk [L1Service Desk] receives interaction, identifies as a INCIDENT, and clicks on Create request and assigns accordingly\n\n--OR—call 6610\n\nBest Practice for creating a ServiceNow Request: HOW TO HELP A CUSTOMER [also includes how to create an incident also]",
+    "preview": "Go to https://servicedesk.stu.edu and create an IT Request from the Service Catalog  --OR—Email Helpdesk@stu.edu (stuhelpdesk@stu.edu also works) – This will automatically create an interaction UNLESS the subject contain"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010095- HowTo_CreateIncident.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 42,
+    "text": "Purpose\n\nProvide internal and external instructions on how to make an incident for all technical needs\n\nPrerequisites\n\nMust have access to https://mybobcat.stu.edu\n\nMust be a member of one of the following:\n\nconstituency STAFF\n\nconstituency Students\n\nconstituency Faculty\n\nOIT Staff\n\nSend email to incident@stu.edu [this only works for internal OIT, Office of Information Technology group - if a user tries to use it will do nothing]. Refrain from FW: or RE: to helpdesk@stu.edu or stuhelpdesk@stu.edu\n\nInclude who is the incident for\n\nIdentify who L1ServiceDesk should assign to [Group and / person]\n\nShort description\n\nContact information\n\nUrgency and time frame\n\nLocation of user\n\n--OR -- Go to https://servicedesk.stu.edu and create a ‘Something Is Broken’ incident using the Service Catalog on the customer portal.\n\nCustomer (student, faculty, staff)\n\nGo to https://servicedesk.stu.edu and click \"Something is Broken”\n\n--OR—Email Helpdesk@stu.edu (stuhelpdesk@stu.edu also works) – This will automatically create an interaction UNLESS the subject contains FW: or RE:\n\nSNOW creates an Interaction",
+    "preview": "Purpose  Provide internal and external instructions on how to make an incident for all technical needs  Prerequisites  Must have access to https://mybobcat.stu.edu  Must be a member of one of the following:  constituency"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010095- HowTo_CreateIncident.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 43,
+    "text": "SNOW creates an Interaction\n\nService Desk [L1Service Desk] receives interaction, identifies as an INCIDENT, and clicks on Create incident and assigns accordingly\n\n--OR-- Scan the QR code. SNOW creates an Interaction\n\nService Desk [L1Service Desk] receives interaction, identifies as an INCIDENT, and clicks on Create incident and assigns accordingly\n\n--OR—call 6610\n\nBest Practice for creating a ServiceNow Incident: HOW TO HELP A CUSTOMER [also includes how to create an incident also]",
+    "preview": "SNOW creates an Interaction  Service Desk [L1Service Desk] receives interaction, identifies as an INCIDENT, and clicks on Create incident and assigns accordingly  --OR-- Scan the QR code. SNOW creates an Interaction  Ser"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010100_InPlace_Procedure.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 44,
+    "text": "In Place Support & Triage\n\nVersion: 1.0\n\nPurpose\n\nAt St. Thomas University, the InPlace app is used by the Nursing program to manage and track student clinical placements. It streamlines scheduling, site assignments, and communication between students, faculty, and clinical partners to ensure placement requirements are met efficiently\n\nPrerequisites\n\nSTU network Logon ID\n\nPart of the Nursing Program\n\nNeed to be in the College of Nursing to have automatic access. An active Nursing Program\n\nReferences\n\nSite: https://stu-us.inplacesoftware.com/\n\nSupport Site: https://inplacesoftware.com/contact-us\n\nGet in touch with the InPlace team.\n\nEnterprise Applications can see if user has looged into InPlace previously would need to reset and use username STU\\MC###### (ID number without @stu.edu)\n\nProcess Overview\n\nLevel 1 Support : L1ServiceDesk Support\n\nPassword Reset – Refer to InPlace Support\n\nIf student changes password it doesn’t sync with SSO, SSO needs to be updated via InPlace\n\nLevel 2 Support: Enterprise Applications",
+    "preview": "In Place Support & Triage  Version: 1.0  Purpose  At St. Thomas University, the InPlace app is used by the Nursing program to manage and track student clinical placements. It streamlines scheduling, site assignments, and"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010100_InPlace_Procedure.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 45,
+    "text": "Level 2 Support: Enterprise Applications\n\nENT supports integration files and send to InPlace SMTP for updates on a nightly basis\n\nInPlace downloads file which makes changes to system\n\nIf integration fails InPlace must support\n\nStudent cannot download their logs – Enterprise Application elevates support to InPlace\n\nStaff member, who is a student, starfish rule could create issues\n\nLogon Procedures Steps\n\nStudents - How to log in As part of your course or program, you need to log into your InPlace Account using your University Credentials\n\n1. Go to the InPlace URL on your browser: https://stu-us.inplacesoftware.com/\n\n2. Press the “Staff and Students” button 3. Enter your “Username” and “Password” and click the “Sign in” button",
+    "preview": "Level 2 Support: Enterprise Applications  ENT supports integration files and send to InPlace SMTP for updates on a nightly basis  InPlace downloads file which makes changes to system  If integration fails InPlace must su"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010102_WIFI_SELFREGISTRATIONPORTAL_Student.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 46,
+    "text": "Information Technology Department Procedure KB0010102\n\nPurpose\n\nRegister Streaming Devices on the STU Wifi network.\n\nSTU WIFI Self Registration Portal\n\nTo register gaming systems or streaming devices on the STU Wifi network (STU_IOT) , follow these instructions:\n\nOBTAIN MAC ADDRESS\n\nBefore opening the self-registration portal, you must obtain the MAC address of the device to be added. Follow instructions here on how to find the MAC address of your device.\n\nOnce the MAC address is known, open the portal on a connected device by going to http://stu-nac1.stu.edu/self_registration or http://stu-nac2.stu.edu/self_registration\n\n*there is an underscore between self and registration\n\nlogin page will be presented where you must enter your STU Username and STU password:\n\nAfter logging in, all registered devices under your login will appear in a list:\n\nTo add a device, click the Add button, then enter your STU Username, MAC Address and a Description of your device (for example, XBox). Then click the Submit button. The device will now be added to your connected devices list:",
+    "preview": "Information Technology Department Procedure KB0010102  Purpose  Register Streaming Devices on the STU Wifi network.  STU WIFI Self Registration Portal  To register gaming systems or streaming devices on the STU Wifi netw"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010102_WIFI_SELFREGISTRATIONPORTAL_Student.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 47,
+    "text": "To add a device, click the Add button, then enter your STU Username, MAC Address and a Description of your device (for example, XBox). Then click the Submit button. The device will now be added to your connected devices list:\n\n6. To delete a device, check the box next to its MAC Address, then click the Delete button.\n\nConfirm delete by clicking the OK button, or you can Cancel\n\nHow to find the MAC Address?\n\nTo find your game console or streaming device’s MAC Address, follow the relevant instructions below.\n\nA valid MAC Address will have the format of twelve hexadecimal numbers, generally separated by colons (for example, 01:23:4D:67:B9:0A).\n\nNintendo Consoles\n\nSony Consoles\n\nMicrosoft Consoles\n\nOther Streaming Devices\n\nNintendo Consoles\n\nNintendo DS\n\nTo locate the MAC Address from a Nintendo DS, you must first insert a Nintendo Wi-Fi Connection\n\ncompatible game and access the WFC Setup Utility. Please note that the exact steps to access the\n\nsetup utility varies by game. However, the setup utility is a standard menu, included with all WFCcompatible games.",
+    "preview": "To add a device, click the Add button, then enter your STU Username, MAC Address and a Description of your device (for example, XBox). Then click the Submit button. The device will now be added to your connected devices "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010102_WIFI_SELFREGISTRATIONPORTAL_Student.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 48,
+    "text": "setup utility varies by game. However, the setup utility is a standard menu, included with all WFCcompatible games.\n\nAfter accessing the utility, tap Options, then System Information.\n\nThe MAC Address and Nintendo WFC ID will be listed on the screen. Unless the game player has\n\nsuccessfully connected with Nintendo Wi-Fi Connection, the WFC ID will be blank.\n\nNintendo 3DS\n\nTo locate the MAC Address of your 3DS:\n\n1. From the Home menu, highlight and select the System Settings Icon.\n\n2. Select Internet Settings.\n\n3. Tap Other Information.\n\n4. Tap Confirm MAC Address. Your system's MAC Address will be displayed on the screen.\n\nWii U\n\nTo locate the MAC Address of your Wii U console:\n\n1. From the Wii U Menu, select System Settings.\n\n2. Using the Left Stick select the Internet icon and press the A Button.\n\n3. Select View MAC Address and wait a moment for the MAC Address to be displayed.\n\nSony Consoles\n\nPlaystation 3\n\nTo locate the MAC Address of your Playstation 3 console:\n\nFrom the main menu, select Settings.\n\nSelect System Settings.\n\nSelect System Information.",
+    "preview": "setup utility varies by game. However, the setup utility is a standard menu, included with all WFCcompatible games.  After accessing the utility, tap Options, then System Information.  The MAC Address and Nintendo WFC ID"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010102_WIFI_SELFREGISTRATIONPORTAL_Student.docx",
+    "chunk_id": 3,
+    "chunk_global_id": 49,
+    "text": "Select System Information.\n\nThe MAC Address will then be displayed on the screen.\n\nPlaystation 4\n\nTo locate the MAC Address of your Playstation 4 console:\n\nArrow up and over to Settings in the PS4 menu.\n\nScroll down to Network.\n\nScroll down to View Connection Status.\n\nThe MAC Address will be listed next to MAC Address.\n\nPSP\n\nTo locate the MAC Address of your PlayStation Portable (PSP):\n\n1. Navigate to System Settings.\n\n2. Then navigate to System Information, which is where the MAC Address is listed.\n\nMicrosoft Consoles\n\nXbox 360\n\nNavigate to My Xbox on the Xbox Dashboard.\n\nSelect System Settings.\n\nSelect Network Settings.\n\nSelect Configure Network.\n\nUnder Basic Settings check to make sure IP Settings is set to Automatic.\n\nGo to Additional Settings.\n\nSelect Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.\n\nXbox One\n\nTo locate the MAC Address of your Xbox One console:\n\nNavigate to My Games and Apps\n\nSelect Settings.\n\nSelect Network.\n\nSelect Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.",
+    "preview": "Select System Information.  The MAC Address will then be displayed on the screen.  Playstation 4  To locate the MAC Address of your Playstation 4 console:  Arrow up and over to Settings in the PS4 menu.  Scroll down to N"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010102_WIFI_SELFREGISTRATIONPORTAL_Student.docx",
+    "chunk_id": 4,
+    "chunk_global_id": 50,
+    "text": "Select Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.\n\nOther Streaming Devices\n\nApple TV\n\nWith your Apple TV remote, navigate to the Settings icon and select it\n\nFrom the Settings menu, select General.\n\nUnder General, select Network.\n\nYour MAC Address will be next to either Wi-Fi Address or Ethernet Address, depending on whether you are connected to the internet via Wi-Fi or a wired connection.\n\nChromecast\n\nOpen the Chromecast app on your computer. If you have set up your Chromecast recently, you'll find a shortcut to the app on your desktop. Otherwise, Windows users should check the Start Menu and Mac users should check Applications.\n\nClick Settings, and the MAC Address will be at the bottom of the window.\n\nRoku\n\nOn the back on your Roku there are a pair of six 2-digit pairs separated by colons, e.g. 00:0D:0A:1H:3G:5C. One set is for the Ethernet connector and for the other for the wireless connector.\n\nAlternatively, from the Roku home screen, select Settings, then Player info. The Addresses will be listed on-screen.",
+    "preview": "Select Advanced Settings. The MAC Addresses for the wired and wireless adapters should be displayed.  Other Streaming Devices  Apple TV  With your Apple TV remote, navigate to the Settings icon and select it  From the Se"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010102_WIFI_SELFREGISTRATIONPORTAL_Student.docx",
+    "chunk_id": 5,
+    "chunk_global_id": 51,
+    "text": "Alternatively, from the Roku home screen, select Settings, then Player info. The Addresses will be listed on-screen.\n\nSmart TV/Blu-ray Player\n\nMost MAC Addresses will be visible in the Settings Menu, either under the Network or About sections.\n\nAlternatively, check with the manufacturer for instructions on how to obtain the MAC Address for your specific model",
+    "preview": "Alternatively, from the Roku home screen, select Settings, then Player info. The Addresses will be listed on-screen.  Smart TV/Blu-ray Player  Most MAC Addresses will be visible in the Settings Menu, either under the Net"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010110_Lockdown Browser.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 52,
+    "text": "Name Process/ Procedure\n\nVersion: 1.0\n\nPurpose\n\nLockDown Browser is a secure web browser application designed to prevent digital cheating during online exams. It restricts the student’s ability to print, copy, access other applications, or visit unauthorized websites while an assessment is in progress.\n\nPrerequisites/ Roles and Responsibilities\n\nProvided by Professor:\n\nCourse login credentials for LMS (Canvas, Blackboard, Moodle, etc.)\n\nExam availability details and requirements\n\nDownload Link: https://download.respondus.com/lockdown/download.php\n\nIT Purposes & Support:\n\nCreate an STU Support Ticket: STU Service Desk Portal : https://servicedesk.stu.edu\n\nLevel 1 Support: L1ServiceDesk\n\nLevel 2 Support: Desktop Services\n\nLockDown Browser Official Support:\n\nSupport + Resources - Respondus\n\nContact - Respondus\n\nTroubleshooting:\n\nBefore the Exam\n\nMake sure the quiz is set to “Require Respondus LockDown Browser” in your LMS.\n\nIf you want iPads allowed, check the “Allow iPad use” option.\n\nHave students do a practice quiz first to test their setup.\n\nStudent Setup",
+    "preview": "Name Process/ Procedure  Version: 1.0  Purpose  LockDown Browser is a secure web browser application designed to prevent digital cheating during online exams. It restricts the student’s ability to print, copy, access oth"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010110_Lockdown Browser.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 53,
+    "text": "Student Setup\n\nInstall the latest version of LockDown Browser (App Store for iPad, school download link for desktop).\n\nRestart the device and close all other apps/programs.\n\nUse a strong, stable Wi-Fi connection (no VPNs or firewalls).\n\nCommon Fixes\n\nCan’t launch exam → Restart device, reinstall app if needed.\n\nError connecting → Check Wi-Fi, try another network.\n\nCamera/Mic not working (iPad) → Go to Settings > Privacy > Camera/Microphone and enable for LockDown Browser.\n\nExam won’t open → Double-check professor settings (exam published, LockDown required, iPad allowed if needed).\n\nProfessor Pro Tips\n\nRemind students: iPad version has some feature limits (no file uploads, certain question types).",
+    "preview": "Student Setup  Install the latest version of LockDown Browser (App Store for iPad, school download link for desktop).  Restart the device and close all other apps/programs.  Use a strong, stable Wi-Fi connection (no VPNs"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010112_Exam_Day_Troubleshooting_Guide.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 54,
+    "text": "📘 Exam Day Troubleshooting Guide\n\nRespondus LockDown Browser – Quick Support for Professors\n\n✅ Before the Exam\n\nRemind students to complete the practice quiz before exam day.\n\nAsk students to bring their iPads/laptops fully charged.\n\nConfirm students are on the STU Wi-Fi network.\n\n⚡ If a Student Has Trouble Starting the Exam\n\nRestart LockDown Browser – Close the app completely and reopen it.\n\nRestart the Device – Power off, wait 10 seconds, turn back on.\n\nCheck Wi-Fi – Make sure the student is connected to STU Wi-Fi.\n\n🔄 If LockDown Browser Freezes During the Exam\n\nHave the student restart the device and relaunch LockDown Browser.\n\nIf the exam still will not load, direct them to the Service Desk for support.\n\n📞 How to Get Help During the Exam\n\nCall: (305) 628-6610\n\nCustomer service portal: https//servicedesk.stu.edu\n\nWalk-In: Sullivan Hall, Room 200\n\n👉 Service Desk staff are available via phone/email from 9:00am-5:00pm, Monday-Friday.\n\n📝 Faculty Reminders\n\nIT staff will not be stationed in classrooms during exams.\n\nEncourage students to arrive early to log in and resolve minor issues.",
+    "preview": "📘 Exam Day Troubleshooting Guide  Respondus LockDown Browser – Quick Support for Professors  ✅ Before the Exam  Remind students to complete the practice quiz before exam day.  Ask students to bring their iPads/laptops fu"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010112_Exam_Day_Troubleshooting_Guide.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 55,
+    "text": "Encourage students to arrive early to log in and resolve minor issues.\n\nIf multiple students report the same issue, call the Service Desk right away.",
+    "preview": "Encourage students to arrive early to log in and resolve minor issues.  If multiple students report the same issue, call the Service Desk right away."
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010113_DexImagingSupport.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 56,
+    "text": "Dex Imaging info\n\nIf you need to order supplies or request service, you can do so by going to:\n\nhttps://www.deximaging.com/service/ or calling 1-800-886-2329\n\nOnce on the site, you can click on Request Service or Order Supplies.\n\nFor either request, you must provide an equipment ID # and a zip code which is the STU zip (33054). The Sticker is located in front of the printer/copier and looks like this:\n\nWith this information, the Dex team will know what model printer/copier you are calling about and where its location is at STU.\n\nOnce you're on the phone or on the website, you’ll be prompted to answer a few questions and provide a phone number where the technician can reach you if an onsite repair is needed.",
+    "preview": "Dex Imaging info  If you need to order supplies or request service, you can do so by going to:  https://www.deximaging.com/service/ or calling 1-800-886-2329  Once on the site, you can click on Request Service or Order S"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010116_Installation_AccessSupport.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 57,
+    "text": "SPSS Installation & Access Support\n\nVersion: 1.0\n\nPurpose\n\nSPSS is a user-friendly software that helps you prepare data, create tables, and use advanced statistics to find patterns and insights.\n\nPrerequisites / Roles and Responsibilities\n\nProvided by Professor: Instruction below\n\nUser login for IBM and campus network (my bobcat portal)\n\nSPSS license code\n\nSPSS Downloader\n\nIT Support:\n\nLevel 1 Support: L1ServiceDesk\n\nTroubleshoot installation, if needed, guide user to My Bobcat Portal, installer\n\nAssistance installing https://servicedesk.stu.edu Create a Request\n\nLevel 2 Support: Desktop Services\n\nAssign if license code has expired\n\nEscalation: SPSS Official Support: https://www.ibm.com/products/spss-statistics/support\n\n(How To Guides)\n\nHow To Obtain License & Installer:\n\nGo to my bobcat portal\n\nClick on Academics & Registration\n\nClick on Academic Profile\n\nUnder Academic Profile choose SPSS Installer\n\nChoose Student Apps (Mac or PC)\n\nPick current version MacOs\n\nPick current version Windows\n\nLicense code and installer (.exe) available to install\n\nTroubleshooting Checklist:",
+    "preview": "SPSS Installation & Access Support  Version: 1.0  Purpose  SPSS is a user-friendly software that helps you prepare data, create tables, and use advanced statistics to find patterns and insights.  Prerequisites / Roles an"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010116_Installation_AccessSupport.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 58,
+    "text": "Troubleshooting Checklist:\n\nEnsure you enter the activation code correctly.\n\nEnsure the license has not expired. The IT department renews and updates it annually.\n\nEnsure you are using the installer designed for your operating system.\n\nEnsure you use the installer best compatible with your Operating System.\n\nDiagram 1\n\nDiagram 2\n\nDiagram 3",
+    "preview": "Troubleshooting Checklist:  Ensure you enter the activation code correctly.  Ensure the license has not expired. The IT department renews and updates it annually.  Ensure you are using the installer designed for your ope"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010117_BookingSTUMeetingRooms_Outlook.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 59,
+    "text": "KB0010117\n\nBooking Meeting Rooms (Outlook, Web APP & Mobile Device)\n\nIntroduction\n\nSTU conference rooms are available for scheduling in Microsoft Outlook.\n\nUsers can check room availability directly in Outlook\n\nWhen a room is reserved, the designated owner receives an automatic email notification to approve/decline.\n\nImproves time efficiency, room management, and prevents scheduling conflicts.\n\nUsers can view room details before booking, including capacity and projector availability.\n\nHow to book a meeting room (step-by-step) – Outlook Web & App\n\nThe following guide will show you how to properly book a meeting room on Outlook, along with important details regarding rooms/ conference rooms that require key access.\n\nOpen Outlook\n\nClick on Calendar\n\nSelect New Event\n\nEnter the meeting details, including title, date, attendees, etc.\n\nClick on Search for a room or location > Browse with Room Finder\n\nUnder Building drop down, choose Miami (for on campus conference rooms)\n\nA list of available buildings on campus will appear, pick your preferred building",
+    "preview": "KB0010117  Booking Meeting Rooms (Outlook, Web APP & Mobile Device)  Introduction  STU conference rooms are available for scheduling in Microsoft Outlook.  Users can check room availability directly in Outlook  When a ro"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010117_BookingSTUMeetingRooms_Outlook.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 60,
+    "text": "A list of available buildings on campus will appear, pick your preferred building\n\nThe available conference rooms for that building will now display, including the room capacity and whether a projector is available\n\nChoose your preferred room and click Send to finalize the reservation\n\nNote: The person responsible for the selected room/ conference room will receive a notification to approve or decline the request based on room availability. All meeting participants will receive an invitation with time and location, along with any other info you have added.\n\nStep-by-Step Screenshots (How to book a room)\n\nStep 1 Step 2\n\nStep 3 Step 4\n\nStep 5 Step 6\n\nStep 7 Step 8\n\nHow to book a meeting room (step-by-step) – Mobile Device\n\nCreate a New Event\n\nClick Location\n\nClick Browse Conference Rooms\n\nChoose Location\n\nChoose Available Room @ that location\n\nTable of rooms that require key access",
+    "preview": "A list of available buildings on campus will appear, pick your preferred building  The available conference rooms for that building will now display, including the room capacity and whether a projector is available  Choo"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010117_BookingSTUMeetingRooms_Outlook.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 61,
+    "text": "Table of rooms that require key access\n\nNote: Even if the room requires key access, the person responsible for the room will be notified of the booking and will only accept if the room is available. In case of a room being available for a meeting, the person responsible for that room will also ensure to have the room unlocked.",
+    "preview": "Table of rooms that require key access  Note: Even if the room requires key access, the person responsible for the room will be notified of the booking and will only accept if the room is available. In case of a room bei"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010118_iPadReleaseUnassign.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 62,
+    "text": "IPad Release/Unassign\n\nVersion: 1.0\n\nPurpose\n\nA Student requires their iPad to be released from STU Organization or is returning iPad to be unassigned and add back to STU OIT inventory\n\nPrerequisites/ Roles and Responsibilities\n\nAccess to Jamf - Jamf Pro Dashboard**\n\nAccess to Apple Store https://school.apple.com/ (Network Admins & Leadership only)\n\nStep by Step\n\nRemoving iPad from Jamf & Apple Store\n\nIPad must be paid for in Full – Business office would be able to verify payment\n\nStudent is graduated from STU\n\nDo NOT RELEASE before you Unassign iPad\n\nSign into Apple Store\n\nSearch for iPad (need Serial Number)\n\nFIRST - UNASSIGN DEVICE MANAGEMENT – confirm\n\nSECOND – RELEASE from Organization\n\nIPad is now released from Organization\n\nGo to Jamf and remove from JAMF\n\nIPad being Returned to go back into Inventory\n\nDo steps 1-3\n\nSKIP Releasing iPad\n\nRemove from Jamf\n\nProcess Flow Diagram (if applicable)",
+    "preview": "IPad Release/Unassign  Version: 1.0  Purpose  A Student requires their iPad to be released from STU Organization or is returning iPad to be unassigned and add back to STU OIT inventory  Prerequisites/ Roles and Responsib"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010122_EllucianODSDataModelsGuides.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 63,
+    "text": "Ellucian Insights: ODS Data Models User Guides\n\nVersion: 1.0\n\nPurpose\n\nThis manual provides guidance on installing, configuring, and maintaining the Ellucian Colleague DataOrchestrator™ ODS Data Models. It serves as a comprehensive reference for understanding system prerequisites, workflows, and best practices for creating and managing operational data stores used in institutional reporting and analytics.\n\nRoles and Responsibilities\n\nSystem Administrators / Superusers – Responsible for installing updates, configuring data models, and maintaining database connectivity between Colleague and the ODS environment.\n\nReport Developers / Analysts – Utilize the ODS data models and views to create analytical and operational reports for decision-making.\n\nEnd Users – Access published reports and dashboards generated from ODS data for institutional planning and performance tracking.\n\nReference",
+    "preview": "Ellucian Insights: ODS Data Models User Guides  Version: 1.0  Purpose  This manual provides guidance on installing, configuring, and maintaining the Ellucian Colleague DataOrchestrator™ ODS Data Models. It serves as a co"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010122_EllucianODSDataModelsGuides.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 64,
+    "text": "Reference\n\nFor detailed installation procedures, troubleshooting steps, and data model customization instructions, click the attached ODS Data Models User Guide (ServiceNow KB attachment) for full guidance and reference material.",
+    "preview": "Reference  For detailed installation procedures, troubleshooting steps, and data model customization instructions, click the attached ODS Data Models User Guide (ServiceNow KB attachment) for full guidance and reference "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010123_EllucianInsights_DataTablesRefGuide2025.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 65,
+    "text": "Ellucian Insights: Data Tables Reference Guide\n\nVersion: 1.0\n\nPurpose\n\nThis document provides a comprehensive list of available Insights tables and their corresponding data sources or links. It serves as a reference for quickly locating, reviewing, and accessing the appropriate datasets for reporting, analytics, and integration with institutional systems.\n\nRoles and Responsibilities\n\nData Analysts / Report Developers: Use this list to identify the correct Insight tables and verify data relationships when building reports or dashboards.\n\nSystem Administrators: Ensure access permissions and data connections for each linked table are properly configured and maintained.\n\nEnd Users / Requestors: Reference this document to request specific datasets or validate data availability before submitting reporting or integration requests.\n\nWorkbook Tabs\n\nBaseline ODS – Lists the standard Operational Data Store (ODS) tables provided by Ellucian, with their related Insight report links.",
+    "preview": "Ellucian Insights: Data Tables Reference Guide  Version: 1.0  Purpose  This document provides a comprehensive list of available Insights tables and their corresponding data sources or links. It serves as a reference for "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010123_EllucianInsights_DataTablesRefGuide2025.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 66,
+    "text": "Baseline ODS – Lists the standard Operational Data Store (ODS) tables provided by Ellucian, with their related Insight report links.\n\nBaseline Other – Contains additional standard data tables that are not part of the ODS but are commonly used in institutional reporting and analysis.\n\nCustom B30 – Includes custom-developed tables and links specific to internal reporting needs or unique institutional data models.\n\nReference\n\nFor detailed table information, data relationships, and live link references, please review the attached List of Insights Tables with Links Excel document.",
+    "preview": "Baseline ODS – Lists the standard Operational Data Store (ODS) tables provided by Ellucian, with their related Insight report links.  Baseline Other – Contains additional standard data tables that are not part of the ODS"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010126_HREmployeeSupport.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 67,
+    "text": "Human Resources Employee Support\n\nVersion: 1.0\n\nPurpose\n\nTo ensure all Human Resources (HR)-related IT tickets are triaged and processed efficiently through the STU IT Service Desk, ensuring timely setup, changes, and separation for employees.\n\n New Employee Setup\n\n Employee Separation\n\n Employee Changes (position updates, name changes, department transfers, etc.)\n\nResponsibilities\n\nL1ServiceDesk – Vet all HR tickets and use standard Request Formats before reassigning and creating RITM assignments\n\nNetwork Services, Enterprise Application Services, Desktop Services to follow:\n\nKB0010076 – New Hire Hardware/ Software Setup Procedure\n\nKB0010128 – Employee Hardware Technology Standards\n\nSeparation Procedure – TBA\n\nEmployee Change Procedure TBA\n\nDetailed Procedure Steps\n\nL1ServiceDesk\n\nIntake Process:\n\nReceive requests from Human Resources via email sent to stuhelpdesk@stu.edu.com.\n\nDocument the request number and start date in the Notes section of Active Directory (ADUC).\n\nUse the standardized short description format:\n\nNew Employee: [First Name] [Last Name] | Start Date: mm/dd/yyyy",
+    "preview": "Human Resources Employee Support  Version: 1.0  Purpose  To ensure all Human Resources (HR)-related IT tickets are triaged and processed efficiently through the STU IT Service Desk, ensuring timely setup, changes, and se"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010126_HREmployeeSupport.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 68,
+    "text": "New Employee: [First Name] [Last Name] | Start Date: mm/dd/yyyy\n\nAssign the request (REQ) to the HR-Support Services group.\n\nNotify Arnol Lopez – Director of Technical Services for visibility.\n\nTelecom/Network Subtasks:\n\nEdit the Telecom Network RITM (Request Item) short description as follows:\n\nNew Employee: [First Name] [Last Name] | Start Date: mm/dd/yyyy – Telecom/Network\n\nAssign to Network Support Services.\n\nHR Support Services\n\n Oversee the entire New Employee onboarding process from initiation through completion.\n\n Coordinate with Desktop Support and Enterprise Applications to ensure all dependencies are fulfilled.\n\nDesktop Support Services\n\nTeam that will be assigned an RITM (request item) and will follow the KB0010076 – New Hire Hardware/ Software Setup Procedure & KB0010128 – Employee Hardware Technology Standards\n\nCreate additional RITMs for Enterprise Application Team if the hiring manager identifies specialized access requirements.\n\n4. Enterprise Application Team",
+    "preview": "New Employee: [First Name] [Last Name] | Start Date: mm/dd/yyyy  Assign the request (REQ) to the HR-Support Services group.  Notify Arnol Lopez – Director of Technical Services for visibility.  Telecom/Network Subtasks: "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010126_HREmployeeSupport.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 69,
+    "text": "4. Enterprise Application Team\n\n Responsible for provisioning access to all STU enterprise systems, including Colleague, Canvas, and related administrative platforms.\n\n Validate access levels according to role and department before granting permissions.",
+    "preview": "4. Enterprise Application Team   Responsible for provisioning access to all STU enterprise systems, including Colleague, Canvas, and related administrative platforms.   Validate access levels according to role and depa"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010128_Employee_HardwareIT_Standards.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 70,
+    "text": "Employee Hardware Technology Standards\n\nVersion: 1.0\n\nThe hardware standards define minimum equipment suites various university roles, including Academic Staff, Full Time Faculty, University Administration, Professional Staff, and Athletics, with a minimum inventory of 10 units for standard suites and 4 for enhanced suites.\n\n🖥️ Standard setups typically include a Dell Latitude Laptop, two Dell 24” monitors, Dell dock, wired keyboard and mouse, webcam, surge protector, and desktop phone, while athletics and enhanced options offer alternatives like Microsoft Surface Pro 10 or Apple Macbook Pro with specialized peripherals.\n\n🚨 Roles such as Public Safety Officers, Maintenance, and Student Workers receive limited or no hardware, and coworking/shared workspaces get desktop packages with Dell OptiPlex Desktops and related accessories. Special exemptions exist for roles requiring specialized hardware, and adjunct faculty are primarily equipped with an iPad with accessories. This approach ensures tailored technology provisioning based on job functions and workspace needs.",
+    "preview": "Employee Hardware Technology Standards  Version: 1.0  The hardware standards define minimum equipment suites various university roles, including Academic Staff, Full Time Faculty, University Administration, Professional "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010128_Employee_HardwareIT_Standards.docx",
+    "chunk_id": 1,
+    "chunk_global_id": 71,
+    "text": "🚨 Roles such as Public Safety Officers, Maintenance, and Student Workers receive limited or no hardware, and coworking/shared workspaces get desktop packages with Dell OptiPlex Desktops and related accessories. Special exemptions exist for roles requiring specialized hardware, and adjunct faculty are primarily equipped with an iPad with accessories. This approach ensures tailored technology provisioning based on job functions and workspace needs.\n\nStandard Hardware Suite (Minimum Inventory of 10)\n\nAcademic Staff / Full Time Faculty / University Administration / Professional Staff (See Athletics Option)\n\nDell Latitude Laptop\n\n(2) Dell 24” Monitors\n\nDell Dock\n\nDell Wired Keyboard & Mouse\n\nWebcam\n\nSurge Protector\n\nDesktop Phone\n\nAthletics Option*\n\nMicrosoft Surface Pro 10\n\n(2) Dell 24” Monitors\n\nMS Surface Thunderbolt Dock\n\nMicrosoft Surface Pen\n\nMicrosoft Surface Keyboard\n\nHand Strap Case\n\nMicrosoft Wired Keyboard & Mouse\n\nWebcam\n\nSurge Protector\n\nDesktop Phone\n\nEnhanced Hardware Suite (Minimum Inventory of 4)\n\nVice Presidents, Directors\n\nOption 1\n\nMicrosoft Surface Pro 10",
+    "preview": "🚨 Roles such as Public Safety Officers, Maintenance, and Student Workers receive limited or no hardware, and coworking/shared workspaces get desktop packages with Dell OptiPlex Desktops and related accessories. Special e"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010128_Employee_HardwareIT_Standards.docx",
+    "chunk_id": 2,
+    "chunk_global_id": 72,
+    "text": "Microsoft Surface Pro 10\n\n(2) Dell 24” Monitors\n\nMS Surface Thunderbolt Dock\n\nMicrosoft Surface Pen\n\nMicrosoft Surface Keyboard\n\nHand Strap Case\n\nMicrosoft Wired Keyboard & Mouse\n\nWebcam\n\nSurge Protector\n\nDesktop Phone\n\nOption 2\n\nApple Macbook Pro\n\n(2) Dell 24” Monitors\n\nApple Magic Keyboard & Mouse\n\nOWC 11-Port Thunderbolt 4 Dock\n\nWebcam\n\nSurge Protector\n\nDesktop Phone\n\nLimited or No Hardware*\n\nPublic Safety Officers / Maintenance / Student Workers\n\nCoworking/Shared Workspace locations: Reception desks, shared cubicles will receive a desktop package:\n\nDell OptiPlex Desktop\n\n(2) Dell 24” Monitors\n\nDell Wired Keyboard & Mouse\n\nWebcam\n\nUPS\n\n*Exemptions are allowed if role has additional duties that require specialized hardware (Desktop Publishing, Streaming, Fashion Design)",
+    "preview": "Microsoft Surface Pro 10  (2) Dell 24” Monitors  MS Surface Thunderbolt Dock  Microsoft Surface Pen  Microsoft Surface Keyboard  Hand Strap Case  Microsoft Wired Keyboard & Mouse  Webcam  Surge Protector  Desktop Phone  "
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010130_PasswordMFA_setup.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 73,
+    "text": "STU Password: Setup Multi-Factor Authentication\n\nMulti-Factor Authentication Modification Login Page\n\nUse your STU username and password to sign in. Do not include the STU\\ prefix or the stu.edu extension when entering your username.\n\nRe-enter your STU credentials again\n\nSetup at least 1 Option:\n\nEmail Recovery\n\nPhone Recovery\n\nAuthenticator Setup",
+    "preview": "STU Password: Setup Multi-Factor Authentication  Multi-Factor Authentication Modification Login Page  Use your STU username and password to sign in. Do not include the STU\\ prefix or the stu.edu extension when entering y"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010131_PasswordChangeGuide.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 74,
+    "text": "STU PASSWORD CHANGE GUIDE\n\nSTU Password Reset (Reset Password Direct Link)\n\nYou must have activated your account first.\n\nGo to https://stu.edu\n\nClick on Resources\n\nMy Bobcat Portal\n\nClick Forgot Password\n\nEnter your username (without @stu.edu)\n\nSTU Password Change Guide\n\nCheck your email/text message for the code\n\nMake a new password",
+    "preview": "STU PASSWORD CHANGE GUIDE  STU Password Reset (Reset Password Direct Link)  You must have activated your account first.  Go to https://stu.edu  Click on Resources  My Bobcat Portal  Click Forgot Password  Enter your user"
+  },
+  {
+    "source_file": "C:\\Users\\H0978019\\OneDrive - St. Thomas University\\Documents\\STU_KB\\data_raw\\docs_reais\\KB0010132_ActivationPassword.docx",
+    "chunk_id": 0,
+    "chunk_global_id": 75,
+    "text": "STU Activation Account\n\nActivate Your Account\n\nGo to the student login page (Activation Page)\n\nEnter your Username (e.g., A00099999) and click Next.\n\nEnter the personal email you used when applying and click Submit.\n\nCheck your email for the activation link and follow the instruction",
+    "preview": "STU Activation Account  Activate Your Account  Go to the student login page (Activation Page)  Enter your Username (e.g., A00099999) and click Next.  Enter the personal email you used when applying and click Submit.  Che"
+  }
+]
