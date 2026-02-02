@@ -1,5 +1,8 @@
+streamlit
+torch
 faiss-cpu
 sentence-transformers
+scikit-learn
 pypdf
 python-docx
 python-pptx
