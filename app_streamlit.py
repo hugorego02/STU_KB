@@ -10,7 +10,6 @@ import numpy as np
 import faiss
 import streamlit as st
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 
 # =========================
@@ -21,13 +20,16 @@ INDEX_DIR = BASE / "data_index"
 FAISS_PATH = INDEX_DIR / "kb.faiss"
 META_PATH = INDEX_DIR / "kb_meta.json"
 
-EMB_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+# LLM used for answering + summarizing
 LLM_MODEL = "gpt-4o-mini"
+
+# Embeddings used for retrieval (MUST match what you used in vectorize.py)
+EMB_OPENAI_MODEL = "text-embedding-3-small"
 
 TOP_K = 6
 MAX_CONTEXT_CHARS_PER_CHUNK = 900
 
-# Confidence gating (safe because your index is IndexFlatIP + normalized embeddings => cosine similarity)
+# Confidence gating (IndexFlatIP + normalized vectors => cosine similarity)
 MIN_TOP1 = 0.35
 MIN_TOP1_STRONG = 0.40
 MIN_GAP_12 = 0.03
@@ -157,7 +159,7 @@ def init_session_state():
         st.session_state.last_question = ""
 
 # =========================
-# Fast startup: KB first, model later
+# Fast startup: KB only
 # =========================
 @st.cache_resource
 def load_kb_only():
@@ -165,14 +167,22 @@ def load_kb_only():
     meta = json.loads(META_PATH.read_text(encoding="utf-8"))
     return index, meta
 
-@st.cache_resource
-def load_embedder():
-    # Heavy: loads torch + model weights (may download on first run)
-    return SentenceTransformer(EMB_MODEL)
+def normalize(vec: np.ndarray) -> np.ndarray:
+    n = np.linalg.norm(vec)
+    return vec / (n + 1e-12)
 
-def retrieve(query: str, index, meta, emb_model, k=TOP_K):
-    qvec = emb_model.encode([query], normalize_embeddings=True)
-    qvec = np.array(qvec, dtype="float32")
+def get_query_embedding(client: OpenAI, text: str) -> np.ndarray:
+    # Returns shape (1, d) float32, normalized for cosine similarity.
+    r = client.embeddings.create(
+        model=EMB_OPENAI_MODEL,
+        input=[text],
+    )
+    vec = np.array(r.data[0].embedding, dtype="float32")
+    vec = normalize(vec).reshape(1, -1)
+    return vec
+
+def retrieve(query: str, index, meta, client: OpenAI, k=TOP_K):
+    qvec = get_query_embedding(client, query)
     scores, ids = index.search(qvec, k)
 
     results = []
@@ -180,11 +190,13 @@ def retrieve(query: str, index, meta, emb_model, k=TOP_K):
         if idx < 0:
             continue
         m = meta[int(idx)]
+        # Prefer preview to reduce memory pressure (if your meta has both)
+        text = (m.get("preview") or m.get("text") or "")[:MAX_CONTEXT_CHARS_PER_CHUNK]
         results.append({
             "score": float(score),
-            "source_file": m["source_file"],
-            "chunk_id": m["chunk_id"],
-            "text": (m.get("text", "")[:MAX_CONTEXT_CHARS_PER_CHUNK]),
+            "source_file": m.get("source_file", "unknown"),
+            "chunk_id": m.get("chunk_id", "?"),
+            "text": text,
             "preview": m.get("preview", "")
         })
     return results
@@ -241,7 +253,6 @@ def should_answer(hits: list[dict]) -> tuple[bool, str]:
     return True, "ok"
 
 def maybe_update_summary(client: OpenAI):
-    # Only run when threshold hit; also keep it out of the startup path
     if st.session_state.turns_since_summary < SUMMARY_EVERY_TURNS:
         return
 
@@ -327,7 +338,6 @@ def should_use_kb(text: str) -> bool:
 # App
 # =========================
 def main():
-    # Load .env locally; on Render, use Environment variables
     load_dotenv()
 
     st.set_page_config(page_title="STU KB Support Chat", layout="wide")
@@ -345,7 +355,7 @@ def main():
 
     client = OpenAI()
 
-    # Fast load: FAISS + meta only (no SentenceTransformer yet)
+    # Load: FAISS + meta only (fast + low memory)
     index, meta = load_kb_only()
     init_session_state()
 
@@ -355,7 +365,7 @@ def main():
         debug_show_retrieval = st.toggle("Debug: show retrieved previews", value=False)
 
         st.markdown("---")
-        metric = "INNER_PRODUCT (cosine similarity; embeddings normalized)" if is_inner_product_index(index) else "UNKNOWN / not INNER_PRODUCT"
+        metric = "INNER_PRODUCT (cosine similarity; vectors normalized)" if is_inner_product_index(index) else "UNKNOWN / not INNER_PRODUCT"
         st.caption(f"FAISS metric: {metric}")
         st.caption(f"Gating: top1>={MIN_TOP1:.2f} (or >= {MIN_TOP1_STRONG:.2f}) and gap12>={MIN_GAP_12:.2f}")
 
@@ -429,18 +439,14 @@ def main():
         with st.chat_message("assistant"):
             st.markdown(answer)
 
-        # Update summary AFTER responding
         maybe_update_summary(client)
         return
 
     # =========================
     # Mode 2: STU KB (RAG)
     # =========================
-    # Heavy load only when KB is needed
-    emb_model = load_embedder()
-
     t0 = time.time()
-    raw_hits = retrieve(q, index, meta, emb_model, k=max(TOP_K * 3, TOP_K))
+    raw_hits = retrieve(q, index, meta, client, k=max(TOP_K * 3, TOP_K))
     hits = rerank_filter_hits(raw_hits, max_per_doc=2, max_total=TOP_K)
     t_retrieve = time.time() - t0
     st.session_state.last_hits = hits
@@ -489,7 +495,6 @@ def main():
 
     answer = format_answer_natural(resp.output_text or "")
 
-    # sources only when asked (or debug)
     if user_asked_for_sources(q) or debug_show_sources:
         answer += "\n\n**Sources:**\n" + build_sources_block(hits)
 
@@ -506,7 +511,6 @@ def main():
                     if r.get("preview"):
                         st.caption(r["preview"])
 
-    # Update summary AFTER responding
     maybe_update_summary(client)
 
 if __name__ == "__main__":
