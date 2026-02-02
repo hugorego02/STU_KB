@@ -21,5 +21,6 @@ credentials.json
 *.sqlite
 # ===== DADOS DO RAG =====
 data_raw/
-data_index/
-*.faiss
+data_index/*
+!data_index/kb.faiss
+!data_index/kb_meta.json
