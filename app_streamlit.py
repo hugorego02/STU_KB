@@ -4,6 +4,8 @@ from pathlib import Path
 import json
 import re
 import time
+import os
+
 import numpy as np
 import faiss
 import streamlit as st
@@ -154,12 +156,19 @@ def init_session_state():
     if "last_question" not in st.session_state:
         st.session_state.last_question = ""
 
+# =========================
+# Fast startup: KB first, model later
+# =========================
 @st.cache_resource
-def load_models_and_kb():
+def load_kb_only():
     index = faiss.read_index(str(FAISS_PATH))
     meta = json.loads(META_PATH.read_text(encoding="utf-8"))
-    emb_model = SentenceTransformer(EMB_MODEL)
-    return index, meta, emb_model
+    return index, meta
+
+@st.cache_resource
+def load_embedder():
+    # Heavy: loads torch + model weights (may download on first run)
+    return SentenceTransformer(EMB_MODEL)
 
 def retrieve(query: str, index, meta, emb_model, k=TOP_K):
     qvec = emb_model.encode([query], normalize_embeddings=True)
@@ -232,6 +241,7 @@ def should_answer(hits: list[dict]) -> tuple[bool, str]:
     return True, "ok"
 
 def maybe_update_summary(client: OpenAI):
+    # Only run when threshold hit; also keep it out of the startup path
     if st.session_state.turns_since_summary < SUMMARY_EVERY_TURNS:
         return
 
@@ -317,17 +327,26 @@ def should_use_kb(text: str) -> bool:
 # App
 # =========================
 def main():
+    # Load .env locally; on Render, use Environment variables
     load_dotenv()
-    client = OpenAI()
 
     st.set_page_config(page_title="STU KB Support Chat", layout="wide")
     st.title("STU Knowledge Base Support Chat")
 
+    # Fail fast if index missing
     if not FAISS_PATH.exists() or not META_PATH.exists():
         st.error("Index not found. Run first: python vectorize.py")
         st.stop()
 
-    index, meta, emb_model = load_models_and_kb()
+    # Fail fast if OPENAI_API_KEY missing
+    if not os.getenv("OPENAI_API_KEY"):
+        st.error("OPENAI_API_KEY is not set. Add it in Render → Environment.")
+        st.stop()
+
+    client = OpenAI()
+
+    # Fast load: FAISS + meta only (no SentenceTransformer yet)
+    index, meta = load_kb_only()
     init_session_state()
 
     with st.sidebar:
@@ -351,13 +370,12 @@ def main():
         st.markdown("---")
         st.caption("Tip: Ask “show sources” / “fontes” to reveal references.")
 
-    # Render chat
+    # Render chat history
     for m in st.session_state.messages:
         with st.chat_message(m["role"]):
             st.markdown(m["content"])
 
     q = st.chat_input("Ask anything (general chat or STU procedures)…")
-
     if not q:
         return
 
@@ -394,9 +412,6 @@ def main():
     with st.chat_message("user"):
         st.markdown(q)
 
-    # Update summary sometimes (memory) - for both modes
-    maybe_update_summary(client)
-
     # =========================
     # Mode 1: Normal chat (NO KB)
     # =========================
@@ -413,11 +428,17 @@ def main():
         st.session_state.messages.append({"role": "assistant", "content": answer})
         with st.chat_message("assistant"):
             st.markdown(answer)
+
+        # Update summary AFTER responding
+        maybe_update_summary(client)
         return
 
     # =========================
     # Mode 2: STU KB (RAG)
     # =========================
+    # Heavy load only when KB is needed
+    emb_model = load_embedder()
+
     t0 = time.time()
     raw_hits = retrieve(q, index, meta, emb_model, k=max(TOP_K * 3, TOP_K))
     hits = rerank_filter_hits(raw_hits, max_per_doc=2, max_total=TOP_K)
@@ -429,6 +450,8 @@ def main():
         st.session_state.messages.append({"role": "assistant", "content": answer})
         with st.chat_message("assistant"):
             st.markdown(answer)
+
+        maybe_update_summary(client)
         return
 
     ok, reason = should_answer(hits)
@@ -447,6 +470,8 @@ def main():
                     st.write(f"top1={hits[0]['score']:.3f}")
                     if len(hits) > 1:
                         st.write(f"top2={hits[1]['score']:.3f} | gap={hits[0]['score']-hits[1]['score']:.3f}")
+
+        maybe_update_summary(client)
         return
 
     excerpts = build_excerpts_block(hits)
@@ -480,6 +505,9 @@ def main():
                     st.write(f"score={r['score']:.3f} | {Path(r['source_file']).name} — chunk {r['chunk_id']}")
                     if r.get("preview"):
                         st.caption(r["preview"])
+
+    # Update summary AFTER responding
+    maybe_update_summary(client)
 
 if __name__ == "__main__":
     main()
