@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: stu-kb-rag
+    runtime: python
+    plan: free
+    buildCommand: uv sync
+    startCommand: uv run streamlit run app_streamlit.py --server.address 0.0.0.0 --server.port $PORT
+    autoDeploy: true
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false

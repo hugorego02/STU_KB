@@ -45,3 +45,24 @@ Do not commit or share a real `.env` file. Use `.env.example` as the template an
 - Clean and standardize KB documents before indexing
 - Add evaluation questions for retrieval quality
 - Improve metadata and source attribution
+
+## Deploy on Render
+
+This repository includes a `render.yaml` Blueprint for Render.
+
+### Recommended setup
+
+- Service type: Web Service
+- Runtime: Python
+- Build command: `uv sync`
+- Start command: `uv run streamlit run app_streamlit.py --server.address 0.0.0.0 --server.port $PORT`
+
+### Required environment variable
+
+- `OPENAI_API_KEY`
+
+### Notes
+
+- The app already includes the FAISS index in `data_index/`, so Render does not need to regenerate embeddings during deploy.
+- Streamlit must bind to `0.0.0.0` and use Render's `PORT` environment variable.
+- If you update the KB documents and want fresh retrieval results, regenerate the index locally and push the updated `data_index/` files.
