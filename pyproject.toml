@@ -1,0 +1,27 @@
+[project]
+name = "stu-kb-rag"
+version = "0.1.0"
+description = "STU knowledge base semantic search and Streamlit RAG app"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4",
+    "faiss-cpu",
+    "lxml",
+    "numpy",
+    "openai",
+    "openpyxl",
+    "pypdf",
+    "python-docx",
+    "python-dotenv",
+    "python-pptx",
+    "requests",
+    "scikit-learn",
+    "sentence-transformers",
+    "streamlit",
+    "torch",
+    "tqdm",
+    "typing-extensions",
+]
+
+[tool.uv]
+package = false

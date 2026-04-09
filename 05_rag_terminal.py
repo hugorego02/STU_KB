@@ -1,24 +1,11 @@
 from __future__ import annotations
 
 from pathlib import Path
-import json
-import numpy as np
-import faiss
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 
-# --------- Config ----------
-BASE = Path(__file__).parent
-INDEX_DIR = BASE / "data_index"
-FAISS_PATH = INDEX_DIR / "kb.faiss"
-META_PATH = INDEX_DIR / "kb_meta.json"
-
-EMB_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_MODEL = "gpt-4o-mini"  # good cost/latency for MVP (can swap later)
-
-TOP_K = 5
-MAX_CONTEXT_CHARS_PER_CHUNK = 900  # to avoid sending huge chunks to the LLM
+from kb_config import LLM_MODEL, TOP_K
+from kb_retrieval import load_kb, retrieve
 
 SYSTEM_RULES = """\
 You are an assistant. Answer using ONLY the SOURCES provided.
@@ -26,36 +13,6 @@ You are an assistant. Answer using ONLY the SOURCES provided.
 - Be concise and actionable.
 - At the end, list sources used in this format: (Filename - Chunk).
 """
-
-# --------- Helpers ----------
-def load_kb():
-    if not FAISS_PATH.exists() or not META_PATH.exists():
-        raise SystemExit("Index not found. Run first: python vectorize.py")
-
-    index = faiss.read_index(str(FAISS_PATH))
-    meta = json.loads(META_PATH.read_text(encoding="utf-8"))
-    return index, meta
-
-
-def retrieve(query: str, index: faiss.Index, meta: list[dict], emb_model: SentenceTransformer, k: int = TOP_K):
-    qvec = emb_model.encode([query], normalize_embeddings=True)
-    qvec = np.array(qvec, dtype="float32")
-
-    scores, ids = index.search(qvec, k)
-    results = []
-    for idx, score in zip(ids[0], scores[0]):
-        if idx < 0:
-            continue
-        m = meta[int(idx)]
-        text = m.get("text", "")
-        results.append({
-            "score": float(score),
-            "source_file": m["source_file"],
-            "chunk_id": m["chunk_id"],
-            "text": text[:MAX_CONTEXT_CHARS_PER_CHUNK],
-        })
-    return results
-
 
 def build_context(results: list[dict]) -> str:
     blocks = []
@@ -71,7 +28,6 @@ def main():
     client = OpenAI()
 
     index, meta = load_kb()
-    emb_model = SentenceTransformer(EMB_MODEL)
 
     print("RAG ready. (Empty ENTER to exit)\n")
 
@@ -80,7 +36,7 @@ def main():
         if not q:
             break
 
-        results = retrieve(q, index, meta, emb_model, k=TOP_K)
+        results = retrieve(q, index, meta, client, k=TOP_K)
         context = build_context(results)
 
         user_prompt = f"""\
